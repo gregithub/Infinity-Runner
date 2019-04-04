@@ -78,3 +78,6 @@ DerivedDataCache/*
 I_R/Content/StarterContent/
 *.pdb
 I_R/Saved/Logs/I_R.log
+I_R/Saved/Logs/
+I_R/Saved/Autosaves/Game/Level/Maps/MainMenu/Main_Menu_WIdget_Auto1.uasset
+I_R/Saved/
