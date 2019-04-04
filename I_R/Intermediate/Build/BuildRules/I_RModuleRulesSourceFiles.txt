@@ -1,0 +1,3 @@
+C:\Users\greg\Documents\Infinity-Runner\I_R\Source\I_R\I_R.Build.cs
+C:\Users\greg\Documents\Infinity-Runner\I_R\Source\I_R.Target.cs
+C:\Users\greg\Documents\Infinity-Runner\I_R\Source\I_REditor.Target.cs
