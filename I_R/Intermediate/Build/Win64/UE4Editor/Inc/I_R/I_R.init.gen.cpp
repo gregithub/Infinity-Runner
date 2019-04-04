@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeI_R_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/I_R",
 				PKG_CompiledIn | 0x00000000,
-				0x6274089B,
-				0x9480718D,
+				0x2BC30CAA,
+				0xBFB5859C,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

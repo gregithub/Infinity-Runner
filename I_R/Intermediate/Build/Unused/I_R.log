@@ -1,0 +1,16 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\greg\Documents\Infinity-Runner).
+  Creating makefile for hot reloading I_REditor (source directory changed)
+  Compiling game modules for hot reload
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for I_REditor
+    Running UnrealHeaderTool "C:\Users\greg\Documents\Infinity-Runner\I_R\I_R.uproject" "C:\Users\greg\Documents\Infinity-Runner\I_R\Intermediate\Build\Win64\I_REditor\Development\I_REditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for I_REditor in 10.604642 seconds
+  Building 4 actions with 16 processes...
+    [1/4] Modules_generator.cpp
+    [2/4] Modules_generator.gen.cpp
+    [3/4] UE4Editor-I_R-1124.lib
+       Creating library C:\Users\greg\Documents\Infinity-Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-1124.lib and object C:\Users\greg\Documents\Infinity-Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-1124.exp
+    [4/4] UE4Editor-I_R-1124.dll
+       Creating library C:\Users\greg\Documents\Infinity-Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-1124.suppressed.lib and object C:\Users\greg\Documents\Infinity-Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-1124.suppressed.exp
+  Deploying I_REditor Win64 Development...
+  Total build time: 17.22 seconds (Parallel executor: 1.54 seconds)

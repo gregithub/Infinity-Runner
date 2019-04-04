@@ -42,4 +42,14 @@
       <Filter>Source\I_R</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\I_R\Modules_generator.h">
+      <Filter>Source\I_R</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\I_R\Modules_generator.cpp">
+      <Filter>Source\I_R</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
