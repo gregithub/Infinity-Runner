@@ -1,0 +1,1085 @@
+﻿Log file open, 04/04/19 20:13:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: I_R
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.631935
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.112s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: AMD Ryzen 7 1700 Eight-Core Processor          , GPU: NVIDIA GeForce RTX 2060
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: D:/EpicGames/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.04.04-18.13.05:408][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.04-18.13.05:409][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Engine.ini]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Engine.ini]
+[2019.04.04-18.13.05:410][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Engine.ini]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Engine.ini]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.04-18.13.05:410][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Engine.ini]
+[2019.04.04-18.13.05:410][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Engine.ini]
+[2019.04.04-18.13.05:429][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Scalability.ini]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Scalability.ini]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Scalability.ini]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Scalability.ini]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.04-18.13.05:429][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Scalability.ini]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Scalability.ini]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Scalability.ini]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.04-18.13.05:430][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.04-18.13.05:432][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.04-18.13.05:433][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.04-18.13.05:464][  0]LogHAL: Display: Platform has ~ 16 GB [17107652608 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.04-18.13.05:467][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.04.04-18.13.05:467][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.04-18.13.05:468][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Scalability.ini]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Scalability.ini]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Scalability.ini]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Scalability.ini]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.04-18.13.05:468][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Scalability.ini]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Scalability.ini]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Scalability.ini]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.04-18.13.05:469][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.04-18.13.05:474][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.04-18.13.05:474][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Config/Windows/Engine.ini]
+[2019.04.04-18.13.05:477][  0]LogInit: Computer: DESKTOP-5VAL70N
+[2019.04.04-18.13.05:477][  0]LogInit: User: greg
+[2019.04.04-18.13.05:477][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.04.04-18.13.05:477][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.04-18.13.05:479][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.04-18.13.05:479][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.04-18.13.05:479][  0]LogMemory: Process Physical Memory: 103.63 MB used, 103.63 MB peak
+[2019.04.04-18.13.05:479][  0]LogMemory: Process Virtual Memory: 91.39 MB used, 91.39 MB peak
+[2019.04.04-18.13.05:479][  0]LogMemory: Physical Memory: 8458.11 MB used,  7857.02 MB free, 16315.13 MB total
+[2019.04.04-18.13.05:479][  0]LogMemory: Virtual Memory: 4683.16 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2019.04.04-18.13.05:782][  0]LogInit: Using OS detected language (en-US).
+[2019.04.04-18.13.05:782][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.04-18.13.05:788][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.04-18.13.06:365][  0]LogStreaming: Display: Took  0.584s to InitEngineTextLocalization.
+[2019.04.04-18.13.06:367][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.04-18.13.06:516][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.04-18.13.06:517][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.04-18.13.08:594][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.04-18.13.08:594][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.04-18.13.08:686][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2019.04.04-18.13.08:686][  0]LogD3D11RHI:       5980/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2019.04.04-18.13.08:688][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.04-18.13.08:688][  0]LogD3D11RHI:       0/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.04-18.13.08:688][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.04-18.13.08:703][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.04-18.13.08:703][  0]LogD3D11RHI:     GPU DeviceId: 0x1f08 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.04-18.13.08:703][  0]LogWindows: EnumDisplayDevices:
+[2019.04.04-18.13.08:703][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
+[2019.04.04-18.13.08:704][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
+[2019.04.04-18.13.08:704][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
+[2019.04.04-18.13.08:704][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2019.04.04-18.13.08:704][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.04-18.13.08:704][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2019.04.04-18.13.08:705][  0]LogD3D11RHI:   Driver Version: 419.67 (internal:25.21.14.1967, unified:419.67)
+[2019.04.04-18.13.08:705][  0]LogD3D11RHI:      Driver Date: 3-17-2019
+[2019.04.04-18.13.08:705][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2019.04.04-18.13.08:764][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.04-18.13.08:837][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.04-18.13.09:452][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.04-18.13.09:480][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.04-18.13.09:507][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.04-18.13.09:537][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.04-18.13.09:569][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.04-18.13.09:598][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.04-18.13.09:626][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.04-18.13.09:656][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.04-18.13.09:675][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.04-18.13.09:804][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:804][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:804][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:804][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:804][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:804][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:804][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:804][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:804][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:804][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:804][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:804][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:804][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.13.09:819][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.04-18.13.09:942][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.04-18.13.09:942][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.04-18.13.09:983][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.04-18.13.09:984][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.04-18.13.10:012][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.04-18.13.10:042][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.04-18.13.10:073][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.04-18.13.10:109][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.04-18.13.10:180][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.04-18.13.10:180][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.04-18.13.10:180][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.04-18.13.10:569][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (C:/Users/greg/Documents/Infinity-Runner/I_R/Intermediate/Shaders/WorkingDirectory/16236/).
+[2019.04.04-18.13.10:570][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/greg/AppData/Local/Temp/UnrealShaderWorkingDir/38A07E9F40230D65575954AD49820B52/'.
+[2019.04.04-18.13.10:574][  0]LogXGEController: Cleaning working directory: C:/Users/greg/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.04-18.13.10:575][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.04-18.13.10:575][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.04-18.13.10:575][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.04-18.13.12:438][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.04-18.13.12:681][  0]LogDerivedDataCache: Loaded boot cache 0.24s 71MB C:/Users/greg/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.04-18.13.12:681][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/greg/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.04.04-18.13.12:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/greg/Documents/Infinity-Runner/I_R/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.04-18.13.12:681][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.04-18.13.12:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/greg/Documents/Infinity-Runner/I_R/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.04-18.13.12:681][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.04-18.13.12:713][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.04-18.13.12:713][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.04-18.13.12:713][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.04.04-18.13.12:726][  0]LogDerivedDataCache: Using Local data cache path C:/Users/greg/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.04-18.13.12:726][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.04-18.13.12:726][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.04-18.13.12:762][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.04-18.13.12:779][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.04-18.13.12:802][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.04-18.13.13:145][  0]LogAssetRegistry: FAssetRegistry took 0.0459 seconds to start up
+[2019.04.04-18.13.13:951][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.04-18.13.14:548][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.04-18.13.14:610][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.04-18.13.14:611][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.04-18.13.14:612][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.04-18.13.14:613][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.04-18.13.14:717][  0]LogNetVersion: I_R 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3053500767)
+[2019.04.04-18.13.16:370][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.124460 seconds
+[2019.04.04-18.13.16:381][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.04.04-18.13.16:381][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.04.04-18.13.16:381][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.04-18.13.20:685][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.04-18.13.20:715][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.04-18.13.21:946][  0]SourceControl: Source control is disabled
+[2019.04.04-18.13.21:947][  0]SourceControl: Source control is disabled
+[2019.04.04-18.13.21:991][  0]SourceControl: Source control is disabled
+[2019.04.04-18.13.22:012][  0]SourceControl: Source control is disabled
+[2019.04.04-18.13.22:845][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.04-18.13.23:055][  0]LogOcInput: OculusInput pre-init called
+[2019.04.04-18.13.23:528][  0]LogEngine: Initializing Engine...
+[2019.04.04-18.13.23:535][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.04-18.13.23:542][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2019.04.04-18.13.23:543][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.04-18.13.23:543][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2019.04.04-18.13.23:544][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.04-18.13.24:070][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.04-18.13.24:233][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.04-18.13.24:310][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.04-18.13.24:343][  0]LogInit: FAudioDevice initialized.
+[2019.04.04-18.13.24:344][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.04-18.13.24:423][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/greg/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.04-18.13.24:427][  0]LogInit: Texture streaming: Enabled
+[2019.04.04-18.13.24:509][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.04-18.13.24:589][  0]LogInit: Transaction tracking system initialized
+[2019.04.04-18.13.24:761][  0]BlueprintLog: New page: Editor Load
+[2019.04.04-18.13.25:338][  0]LocalizationService: Localization service is disabled
+[2019.04.04-18.13.26:522][  0]LogFileCache: Scanning file cache for directory 'C:/Users/greg/Documents/Infinity-Runner/I_R/Content/' took 0.02s
+[2019.04.04-18.13.26:522][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.04-18.13.26:523][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.04-18.13.26:524][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.04-18.13.26:525][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.04-18.13.26:525][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.04-18.13.26:525][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.04-18.13.26:525][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.04-18.13.27:326][  0]SourceControl: Source control is disabled
+[2019.04.04-18.13.27:328][  0]Cmd: MAP LOAD FILE="C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Maps/BasicMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.04-18.13.27:331][  0]LightingResults: New page: Lighting Build
+[2019.04.04-18.13.27:357][  0]MapCheck: New page: Map Check
+[2019.04.04-18.13.27:357][  0]LightingResults: New page: Lighting Build
+[2019.04.04-18.13.28:166][  0]LogAIModule: Creating AISystem for world BasicMap
+[2019.04.04-18.13.28:254][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.04-18.13.28:304][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.04-18.13.28:305][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.15ms to complete.
+[2019.04.04-18.13.28:306][  0]LogFileHelpers: Loading map 'BasicMap' took 0.979
+[2019.04.04-18.13.28:570][  0]LogCollectionManager: Loaded 0 collections in 0.001461 seconds
+[2019.04.04-18.13.28:668][  0]LogFileCache: Scanning file cache for directory 'C:/Users/greg/Documents/Infinity-Runner/I_R/Saved/Collections/' took 0.01s
+[2019.04.04-18.13.28:668][  0]LogFileCache: Scanning file cache for directory 'C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Developers/greg/Collections/' took 0.01s
+[2019.04.04-18.13.28:668][  0]LogFileCache: Scanning file cache for directory 'C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Collections/' took 0.00s
+[2019.04.04-18.13.28:668][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.04-18.13.28:692][  0]LogContentBrowser: Native class hierarchy populated in 0.0193 seconds. Added 2654 classes and 622 folders.
+[2019.04.04-18.13.28:716][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.04-18.13.28:732][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:746][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:764][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:770][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:776][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:783][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:788][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:795][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:802][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:809][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:815][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:821][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:827][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:834][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:840][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:846][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:870][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:876][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:882][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:888][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:922][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:928][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:934][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:941][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:947][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.28:953][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.04-18.13.29:116][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.04.04-18.13.29:203][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.13.29:216][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.13.29:225][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.13.29:234][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.13.29:271][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.04.04-18.13.31:744][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.04.04-18.13.31:847][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.IR
+[2019.04.04-18.13.31:847][  0]LogTemp: CWD: D:\EpicGames\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.04.04-18.13.31:847][  0]LogTemp: Initial Dir: D:\EpicGames\Epic Games\UE_4.21
+[2019.04.04-18.13.31:847][  0]LogTemp: Env CWD: D:\EpicGames\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.04.04-18.13.31:847][  0]LogTemp: BranchPath = DESKTOP-5VAL70N/D/EpicGames/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-5VAL70N/D/EpicGames/Epic Games/UE_4.21/Engine/Binaries
+[2019.04.04-18.13.31:848][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\greg\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.04.04-18.13.31:848][  0]LogSlate: Took 0.005033 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.04-18.13.32:456][  0]LogSlate: Took 0.006035 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.04-18.13.32:464][  0]LogSlate: Took 0.006288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.04-18.13.32:482][  0]LogSlate: Took 0.006058 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.04.04-18.13.32:733][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.04.04-18.13.33:023][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.04-18.13.33:024][  0]LogLoad: (Engine Initialization) Total time: 33.79 seconds
+[2019.04.04-18.13.33:024][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.04-18.13.33:148][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.04-18.13.33:269][  1]LogAssetRegistry: Asset discovery search completed in 20.1501 seconds
+[2019.04.04-18.13.33:271][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.04-18.13.33:272][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000248 seconds (updated 0 objects)
+[2019.04.04-18.13.34:225][ 88]LogSlate: Took 0.005091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.04-18.13.34:520][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-18.13.36:872][400]LogLinker: Warning: Can't find file '/Game/Dynamic/BP_InfiniteTerrainGameMode'
+[2019.04.04-18.13.36:872][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/BP_InfiniteTerrainGameMode' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:873][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Dynamic/BP_InfiniteTerrainGameMode
+[2019.04.04-18.13.36:873][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Character/Behaviour/BP_Character'
+[2019.04.04-18.13.36:873][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Character/Behaviour/BP_Character' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:874][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Dynamic/Character/Behaviour/BP_Character
+[2019.04.04-18.13.36:875][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Box'
+[2019.04.04-18.13.36:875][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Box' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:876][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Dynamic/Terrain/Props/BP_Box
+[2019.04.04-18.13.36:876][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Canister'
+[2019.04.04-18.13.36:876][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Canister' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:877][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Dynamic/Terrain/Props/BP_Canister
+[2019.04.04-18.13.36:877][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Container'
+[2019.04.04-18.13.36:877][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Container' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:878][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Dynamic/Terrain/Props/BP_Container
+[2019.04.04-18.13.36:878][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Rock1'
+[2019.04.04-18.13.36:879][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Rock1' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:879][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Dynamic/Terrain/Props/BP_Rock1
+[2019.04.04-18.13.36:879][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Rock2'
+[2019.04.04-18.13.36:880][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Rock2' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:880][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Dynamic/Terrain/Props/BP_Rock2
+[2019.04.04-18.13.36:880][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Rock3'
+[2019.04.04-18.13.36:881][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Rock3' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:881][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Dynamic/Terrain/Props/BP_Rock3
+[2019.04.04-18.13.36:881][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_SandBags'
+[2019.04.04-18.13.36:882][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_SandBags' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:882][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Dynamic/Terrain/Props/BP_SandBags
+[2019.04.04-18.13.36:883][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:884][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:884][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Script/S05_TestingGrounds
+[2019.04.04-18.13.36:884][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:884][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:885][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:885][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:886][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:886][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:886][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:886][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:887][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/MI_Barrier_Green'
+[2019.04.04-18.13.36:887][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/MI_Barrier_Green' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:888][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Dynamic/Terrain/MI_Barrier_Green
+[2019.04.04-18.13.36:888][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/MI_Barrier_Red'
+[2019.04.04-18.13.36:888][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/MI_Barrier_Red' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:889][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Dynamic/Terrain/MI_Barrier_Red
+[2019.04.04-18.13.36:889][400]LogLinker: Warning: Can't find file '/Game/Static/TestingGroundPack/GrassPack/Materials/Ground'
+[2019.04.04-18.13.36:889][400]LogLinker: Warning: Can't find file for asset '/Game/Static/TestingGroundPack/GrassPack/Materials/Ground' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:890][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Static/TestingGroundPack/GrassPack/Materials/Ground
+[2019.04.04-18.13.36:890][400]LogLinker: Warning: Can't find file '/Game/Dynamic/BP_InfiniteTerrainGameMode'
+[2019.04.04-18.13.36:891][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/BP_InfiniteTerrainGameMode' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:891][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Character/Behaviour/BP_Character'
+[2019.04.04-18.13.36:891][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Character/Behaviour/BP_Character' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:892][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/MI_Barrier_Green'
+[2019.04.04-18.13.36:892][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/MI_Barrier_Green' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:893][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/MI_Barrier_Red'
+[2019.04.04-18.13.36:893][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/MI_Barrier_Red' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:893][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Box'
+[2019.04.04-18.13.36:894][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Box' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:894][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Canister'
+[2019.04.04-18.13.36:894][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Canister' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:895][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Container'
+[2019.04.04-18.13.36:895][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Container' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:896][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Rock1'
+[2019.04.04-18.13.36:896][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Rock1' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:897][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Rock2'
+[2019.04.04-18.13.36:897][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Rock2' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:897][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Rock3'
+[2019.04.04-18.13.36:898][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Rock3' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:898][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_SandBags'
+[2019.04.04-18.13.36:898][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_SandBags' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:899][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/S_GroundPlane'
+[2019.04.04-18.13.36:899][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/S_GroundPlane' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:900][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Dynamic/Terrain/S_GroundPlane
+[2019.04.04-18.13.36:900][400]LogLinker: Warning: Can't find file '/Game/Static/Geometry/Meshes/1M_Cube'
+[2019.04.04-18.13.36:900][400]LogLinker: Warning: Can't find file for asset '/Game/Static/Geometry/Meshes/1M_Cube' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:901][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Static/Geometry/Meshes/1M_Cube
+[2019.04.04-18.13.36:901][400]LogLinker: Warning: Can't find file '/Game/Static/TestingGroundPack/GrassPack/Materials/Ground'
+[2019.04.04-18.13.36:901][400]LogLinker: Warning: Can't find file for asset '/Game/Static/TestingGroundPack/GrassPack/Materials/Ground' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:902][400]LogLinker: Warning: Can't find file '/Game/Static/TestingGroundPack/GrassPack/Meshes/grass01'
+[2019.04.04-18.13.36:902][400]LogLinker: Warning: Can't find file for asset '/Game/Static/TestingGroundPack/GrassPack/Meshes/grass01' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:903][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Static/TestingGroundPack/GrassPack/Meshes/grass01
+[2019.04.04-18.13.36:903][400]LogLinker: Warning: Can't find file '/Game/Static/TestingGroundPack/GrassPack/Meshes/grass02'
+[2019.04.04-18.13.36:904][400]LogLinker: Warning: Can't find file for asset '/Game/Static/TestingGroundPack/GrassPack/Meshes/grass02' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:904][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Static/TestingGroundPack/GrassPack/Meshes/grass02
+[2019.04.04-18.13.36:904][400]LogLinker: Warning: Can't find file '/Game/Static/TestingGroundPack/GrassPack/Meshes/grass05'
+[2019.04.04-18.13.36:905][400]LogLinker: Warning: Can't find file for asset '/Game/Static/TestingGroundPack/GrassPack/Meshes/grass05' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:905][400]LoadErrors: Error: /Game/Level/Modules/BP_Tile : Can't find file for asset. /Game/Static/TestingGroundPack/GrassPack/Meshes/grass05
+[2019.04.04-18.13.36:906][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:906][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:906][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:906][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:907][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/S_GroundPlane'
+[2019.04.04-18.13.36:907][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/S_GroundPlane' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:908][400]LogLinker: Warning: Can't find file '/Game/Static/Geometry/Meshes/1M_Cube'
+[2019.04.04-18.13.36:908][400]LogLinker: Warning: Can't find file for asset '/Game/Static/Geometry/Meshes/1M_Cube' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:909][400]LogLinker: Warning: Can't find file '/Game/Static/TestingGroundPack/GrassPack/Meshes/grass01'
+[2019.04.04-18.13.36:909][400]LogLinker: Warning: Can't find file for asset '/Game/Static/TestingGroundPack/GrassPack/Meshes/grass01' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:909][400]LogLinker: Warning: Can't find file '/Game/Static/TestingGroundPack/GrassPack/Meshes/grass02'
+[2019.04.04-18.13.36:910][400]LogLinker: Warning: Can't find file for asset '/Game/Static/TestingGroundPack/GrassPack/Meshes/grass02' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:910][400]LogLinker: Warning: Can't find file '/Game/Static/TestingGroundPack/GrassPack/Meshes/grass05'
+[2019.04.04-18.13.36:911][400]LogLinker: Warning: Can't find file for asset '/Game/Static/TestingGroundPack/GrassPack/Meshes/grass05' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:911][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:911][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading C:/Users/greg/Documents/Infinity-Runner/I_R/Content/Level/Modules/BP_Tile.uasset.
+[2019.04.04-18.13.36:912][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:912][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:912][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:913][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:913][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:913][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:913][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:913][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:914][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:914][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:914][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:914][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:915][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:915][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:915][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:915][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:916][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:916][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:916][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:916][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:917][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:917][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:917][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:917][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:918][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:918][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:918][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:918][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:918][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:919][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:919][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:919][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:919][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:920][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:920][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:920][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:921][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:921][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:921][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:921][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:921][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:922][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:922][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:922][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:922][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:924][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:924][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:924][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:925][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:925][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:925][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:925][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:926][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:926][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:926][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:926][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:927][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:927][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:927][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:927][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:928][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:928][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:928][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:929][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:929][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:929][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:929][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:929][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:930][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:930][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:930][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:930][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:931][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:931][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:931][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:932][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:932][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:932][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:932][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:932][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:933][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:933][400]LogLinker: Warning: Unable to load Default__BP_Tile_C with outer Package /Game/Level/Modules/BP_Tile because its class does not exist
+[2019.04.04-18.13.36:933][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:933][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:934][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:934][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:934][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:934][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:935][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:935][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:935][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:935][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:936][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:936][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:936][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:936][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:937][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:937][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:937][400]LogLinker: Warning: Unable to load Grass1_GEN_VARIABLE with outer BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C because its class does not exist
+[2019.04.04-18.13.36:937][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:938][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:938][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:938][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:938][400]LogLinker: Warning: Unable to load Grass2_GEN_VARIABLE with outer BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C because its class does not exist
+[2019.04.04-18.13.36:938][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:939][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:939][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:939][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:939][400]LogLinker: Warning: Unable to load Grass5_GEN_VARIABLE with outer BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C because its class does not exist
+[2019.04.04-18.13.36:941][400]LogLinker: Warning: Unable to load PhysicsSerializer with outer GrassComponent /Game/Level/Modules/BP_Tile.BP_Tile_C:Grass1_GEN_VARIABLE because its class does not exist
+[2019.04.04-18.13.36:942][400]LogLinker: Warning: Unable to load PhysicsSerializer with outer GrassComponent /Game/Level/Modules/BP_Tile.BP_Tile_C:Grass2_GEN_VARIABLE because its class does not exist
+[2019.04.04-18.13.36:942][400]LogLinker: Warning: Unable to load PhysicsSerializer with outer GrassComponent /Game/Level/Modules/BP_Tile.BP_Tile_C:Grass5_GEN_VARIABLE because its class does not exist
+[2019.04.04-18.13.36:942][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:943][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:943][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:943][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:943][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:944][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:944][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:944][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:944][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:945][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:945][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:945][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:946][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:946][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:946][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:946][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:947][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:947][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:947][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:947][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:947][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:948][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:949][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by BP_Tile
+[2019.04.04-18.13.36:949][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:949][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:950][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:950][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:950][400]LogBlueprint: Warning: FMemberReference::ResolveMember (K2_DestroyActor) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.36:951][400]LogBlueprint: Warning: FMemberReference::ResolveMember (Lock) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.36:951][400]LogBlueprint: Warning: FMemberReference::ResolveMember (TileConquered) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.36:951][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:951][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by K2Node_CallFunction_229
+[2019.04.04-18.13.36:952][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:952][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Box'
+[2019.04.04-18.13.36:952][400]LoadErrors: Failed to load /Game/Dynamic/Terrain/Props/BP_Box.BP_Box_C Referenced by K2Node_CallFunction_229
+[2019.04.04-18.13.36:953][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Box' while loading NULL.
+[2019.04.04-18.13.36:953][400]LogBlueprint: Warning: FMemberReference::ResolveMember (PlaceActors) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.36:953][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:953][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by K2Node_CallFunction_230
+[2019.04.04-18.13.36:954][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:954][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Canister'
+[2019.04.04-18.13.36:954][400]LoadErrors: Failed to load /Game/Dynamic/Terrain/Props/BP_Canister.BP_Canister_C Referenced by K2Node_CallFunction_230
+[2019.04.04-18.13.36:955][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Canister' while loading NULL.
+[2019.04.04-18.13.36:955][400]LogBlueprint: Warning: FMemberReference::ResolveMember (PlaceActors) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.36:955][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:955][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by K2Node_CallFunction_231
+[2019.04.04-18.13.36:956][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:956][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Rock3'
+[2019.04.04-18.13.36:956][400]LoadErrors: Failed to load /Game/Dynamic/Terrain/Props/BP_Rock3.BP_Rock3_C Referenced by K2Node_CallFunction_231
+[2019.04.04-18.13.36:957][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Rock3' while loading NULL.
+[2019.04.04-18.13.36:957][400]LogBlueprint: Warning: FMemberReference::ResolveMember (PlaceActors) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.36:957][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:958][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by K2Node_CallFunction_232
+[2019.04.04-18.13.36:958][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:958][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Rock1'
+[2019.04.04-18.13.36:958][400]LoadErrors: Failed to load /Game/Dynamic/Terrain/Props/BP_Rock1.BP_Rock1_C Referenced by K2Node_CallFunction_232
+[2019.04.04-18.13.36:959][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Rock1' while loading NULL.
+[2019.04.04-18.13.36:959][400]LogBlueprint: Warning: FMemberReference::ResolveMember (PlaceActors) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.36:959][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:960][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by K2Node_CallFunction_233
+[2019.04.04-18.13.36:960][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:960][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Rock2'
+[2019.04.04-18.13.36:961][400]LoadErrors: Failed to load /Game/Dynamic/Terrain/Props/BP_Rock2.BP_Rock2_C Referenced by K2Node_CallFunction_233
+[2019.04.04-18.13.36:961][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Rock2' while loading NULL.
+[2019.04.04-18.13.36:961][400]LogBlueprint: Warning: FMemberReference::ResolveMember (PlaceActors) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.36:962][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:962][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by K2Node_CallFunction_234
+[2019.04.04-18.13.36:962][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:962][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_SandBags'
+[2019.04.04-18.13.36:963][400]LoadErrors: Failed to load /Game/Dynamic/Terrain/Props/BP_SandBags.BP_SandBags_C Referenced by K2Node_CallFunction_234
+[2019.04.04-18.13.36:963][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_SandBags' while loading NULL.
+[2019.04.04-18.13.36:963][400]LogBlueprint: Warning: FMemberReference::ResolveMember (PlaceActors) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.36:964][400]LogLinker: Warning: Can't find file '/Game/Dynamic/BP_InfiniteTerrainGameMode'
+[2019.04.04-18.13.36:964][400]LoadErrors: Failed to load /Game/Dynamic/BP_InfiniteTerrainGameMode.BP_InfiniteTerrainGameMode_C Referenced by K2Node_CallFunction_27
+[2019.04.04-18.13.36:964][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/BP_InfiniteTerrainGameMode' while loading NULL.
+[2019.04.04-18.13.36:965][400]LogLinker: Warning: Can't find file '/Game/Dynamic/BP_InfiniteTerrainGameMode'
+[2019.04.04-18.13.36:965][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/BP_InfiniteTerrainGameMode' while loading NULL.
+[2019.04.04-18.13.36:966][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:966][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by K2Node_CallFunction_63
+[2019.04.04-18.13.36:966][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:966][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Character/Behaviour/BP_Character'
+[2019.04.04-18.13.36:967][400]LoadErrors: Failed to load /Game/Dynamic/Character/Behaviour/BP_Character.BP_Character_C Referenced by K2Node_CallFunction_63
+[2019.04.04-18.13.36:967][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Character/Behaviour/BP_Character' while loading NULL.
+[2019.04.04-18.13.36:967][400]LogBlueprint: Warning: FMemberReference::ResolveMember (PlaceAIPawns) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.36:968][400]LogBlueprint: Warning: FMemberReference::ResolveMember (Unlock) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.36:968][400]LogBlueprint: Warning: FMemberReference::ResolveMember (Lock) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.36:968][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:969][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by K2Node_CallFunction_88
+[2019.04.04-18.13.36:969][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:969][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/Props/BP_Container'
+[2019.04.04-18.13.36:970][400]LoadErrors: Failed to load /Game/Dynamic/Terrain/Props/BP_Container.BP_Container_C Referenced by K2Node_CallFunction_88
+[2019.04.04-18.13.36:970][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/Props/BP_Container' while loading NULL.
+[2019.04.04-18.13.36:970][400]LogBlueprint: Warning: FMemberReference::ResolveMember (PlaceActors) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.36:971][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/MI_Barrier_Red'
+[2019.04.04-18.13.36:971][400]LoadErrors: Failed to load /Game/Dynamic/Terrain/MI_Barrier_Red.MI_Barrier_Red Referenced by K2Node_CallFunction_51
+[2019.04.04-18.13.36:971][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/MI_Barrier_Red' while loading NULL.
+[2019.04.04-18.13.36:972][400]LogLinker: Warning: Can't find file '/Game/Dynamic/BP_InfiniteTerrainGameMode'
+[2019.04.04-18.13.36:972][400]LoadErrors: Failed to load /Game/Dynamic/BP_InfiniteTerrainGameMode.BP_InfiniteTerrainGameMode_C Referenced by K2Node_CallFunction_289
+[2019.04.04-18.13.36:973][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/BP_InfiniteTerrainGameMode' while loading NULL.
+[2019.04.04-18.13.36:973][400]LogLinker: Warning: Can't find file '/Game/Dynamic/BP_InfiniteTerrainGameMode'
+[2019.04.04-18.13.36:973][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/BP_InfiniteTerrainGameMode' while loading NULL.
+[2019.04.04-18.13.36:974][400]LogLinker: Warning: Can't find file '/Game/Dynamic/Terrain/MI_Barrier_Green'
+[2019.04.04-18.13.36:974][400]LoadErrors: Failed to load /Game/Dynamic/Terrain/MI_Barrier_Green.MI_Barrier_Green Referenced by K2Node_CallFunction_66
+[2019.04.04-18.13.36:974][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/Terrain/MI_Barrier_Green' while loading NULL.
+[2019.04.04-18.13.36:975][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:975][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by K2Node_ComponentBoundEvent_0
+[2019.04.04-18.13.36:975][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:976][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:976][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:976][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by K2Node_ComponentBoundEvent_1
+[2019.04.04-18.13.36:977][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:977][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:977][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:978][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by K2Node_ComponentBoundEvent_18
+[2019.04.04-18.13.36:978][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:978][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:979][400]LogLinker: Warning: Can't find file '/Game/Dynamic/BP_InfiniteTerrainGameMode'
+[2019.04.04-18.13.36:979][400]LoadErrors: Failed to load /Game/Dynamic/BP_InfiniteTerrainGameMode.BP_InfiniteTerrainGameMode_C Referenced by K2Node_DynamicCast_0
+[2019.04.04-18.13.36:979][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/BP_InfiniteTerrainGameMode' while loading NULL.
+[2019.04.04-18.13.36:980][400]LogLinker: Warning: Can't find file '/Game/Dynamic/BP_InfiniteTerrainGameMode'
+[2019.04.04-18.13.36:980][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/BP_InfiniteTerrainGameMode' while loading NULL.
+[2019.04.04-18.13.36:980][400]LogLinker: Warning: Can't find file '/Game/Dynamic/BP_InfiniteTerrainGameMode'
+[2019.04.04-18.13.36:981][400]LoadErrors: Failed to load /Game/Dynamic/BP_InfiniteTerrainGameMode.BP_InfiniteTerrainGameMode_C Referenced by K2Node_DynamicCast_13
+[2019.04.04-18.13.36:981][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/BP_InfiniteTerrainGameMode' while loading NULL.
+[2019.04.04-18.13.36:982][400]LogLinker: Warning: Can't find file '/Game/Dynamic/BP_InfiniteTerrainGameMode'
+[2019.04.04-18.13.36:982][400]LogLinker: Warning: Can't find file for asset '/Game/Dynamic/BP_InfiniteTerrainGameMode' while loading NULL.
+[2019.04.04-18.13.36:983][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:983][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by K2Node_VariableGet_0
+[2019.04.04-18.13.36:984][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:984][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:984][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:985][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by K2Node_VariableGet_1
+[2019.04.04-18.13.36:985][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:985][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:985][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:986][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:986][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:986][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:987][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:987][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:987][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:988][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by K2Node_VariableGet_4
+[2019.04.04-18.13.36:988][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:988][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:989][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:989][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:989][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:989][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:990][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:990][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:990][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:991][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:991][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:991][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:992][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by K2Node_VariableSet_0
+[2019.04.04-18.13.36:992][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:992][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.36:992][400]LogLinker: Warning: Can't find file '/Script/S05_TestingGrounds'
+[2019.04.04-18.13.36:993][400]LoadErrors: Failed to load /Script/S05_TestingGrounds.Tile Referenced by PackageMetaData
+[2019.04.04-18.13.36:993][400]LogLinker: Warning: Can't find file for asset '/Script/S05_TestingGrounds' while loading NULL.
+[2019.04.04-18.13.36:993][400]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Level/Modules/BP_Tile.BP_Tile_C
+[2019.04.04-18.13.37:006][400]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Level/Modules/BP_Tile.BP_Tile
+[2019.04.04-18.13.39:068][400]LogSlate: Window 'Message' being destroyed
+[2019.04.04-18.13.39:167][400]LogBlueprint: Warning: FMemberReference::ResolveMember (Unlock) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.39:167][400]LogBlueprint: Warning: FMemberReference::ResolveMember (Lock) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.39:168][400]LogBlueprint: Warning: FMemberReference::ResolveMember (Lock) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.39:168][400]LogBlueprint: Warning: FMemberReference::ResolveMember (PlaceActors) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.39:168][400]LogBlueprint: Warning: FMemberReference::ResolveMember (PlaceActors) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.39:168][400]LogBlueprint: Warning: FMemberReference::ResolveMember (PlaceActors) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.39:169][400]LogBlueprint: Warning: FMemberReference::ResolveMember (PlaceActors) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.39:169][400]LogBlueprint: Warning: FMemberReference::ResolveMember (PlaceActors) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.39:169][400]LogBlueprint: Warning: FMemberReference::ResolveMember (PlaceActors) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.39:169][400]LogBlueprint: Warning: FMemberReference::ResolveMember (PlaceActors) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.39:169][400]LogBlueprint: Warning: FMemberReference::ResolveMember (K2_DestroyActor) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.39:170][400]LogBlueprint: Warning: FMemberReference::ResolveMember (PlaceAIPawns) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.39:170][400]LogBlueprint: Warning: FMemberReference::ResolveMember (TileConquered) bSelfContext == true, but no scope supplied!
+[2019.04.04-18.13.39:812][400]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 117 classes and 0 folders.
+[2019.04.04-18.13.40:203][400]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.04.04-18.13.41:104][400]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.900 s
+[2019.04.04-18.13.41:104][400]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.04-18.13.41:104][400]LogOutputDevice: Error: 
+[2019.04.04-18.13.41:104][400]LogOutputDevice: Error: Ensure condition failed: BpClass != nullptr [File:D:\Build\++UE4\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionFilter.cpp] [Line: 632]
+[2019.04.04-18.13.41:105][400]LogOutputDevice: Error: Unable to resolve IsEventUnimplementable() - Blueprint (BP_Tile) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2019.04.04-18.13.41:105][400]LogOutputDevice: Error: Stack: 
+[2019.04.04-18.13.41:105][400]LogOutputDevice: Error: [Callstack] 0x00007ffe0d54ee11 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.04.04-18.13.41:105][400]LogOutputDevice: Error: [Callstack] 0x00007ffe0d54fd86 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.04.04-18.13.41:106][400]LogOutputDevice: Error: [Callstack] 0x00007ffe0d54faa1 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.04.04-18.13.41:106][400]LogOutputDevice: Error: [Callstack] 0x00007ffe10ef0f78 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:106][400]LogOutputDevice: Error: [Callstack] 0x00007ffe10f18f70 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:106][400]LogOutputDevice: Error: [Callstack] 0x00007ffe10ef1853 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:107][400]LogOutputDevice: Error: [Callstack] 0x00007ffe111a10ad UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:107][400]LogOutputDevice: Error: [Callstack] 0x00007ffe111edd89 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:107][400]LogOutputDevice: Error: [Callstack] 0x00007ffe0a71d053 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.04.04-18.13.41:107][400]LogOutputDevice: Error: [Callstack] 0x00007ffe0a62271a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.04.04-18.13.41:107][400]LogOutputDevice: Error: [Callstack] 0x00007ffe111b9896 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:108][400]LogOutputDevice: Error: [Callstack] 0x00007ffe111b4744 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:108][400]LogOutputDevice: Error: [Callstack] 0x00007ffe1118afee UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:108][400]LogOutputDevice: Error: [Callstack] 0x00007ffe111b4c71 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:108][400]LogOutputDevice: Error: [Callstack] 0x00007ffe10f8c1d8 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:109][400]LogOutputDevice: Error: [Callstack] 0x00007ffe10f82a81 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:109][400]LogOutputDevice: Error: [Callstack] 0x00007ffe10fb3d5d UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:109][400]LogOutputDevice: Error: [Callstack] 0x00007ffe10f867ff UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:109][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfde08a40 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.04.04-18.13.41:109][400]LogOutputDevice: Error: [Callstack] 0x00007ffe0b662549 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.04-18.13.41:110][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfdd92888 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.04.04-18.13.41:110][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfcc3bccd UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.04-18.13.41:110][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfcbf2959 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.04-18.13.41:110][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfcc46b33 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.04-18.13.41:111][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfcbf06aa UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.04-18.13.41:111][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfcbecff0 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.04-18.13.41:111][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfcc534a0 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.04-18.13.41:111][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfcc46fff UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.04-18.13.41:112][400]LogOutputDevice: Error: [Callstack] 0x00007ffe1225886a UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.04-18.13.41:112][400]LogOutputDevice: Error: [Callstack] 0x00007ffe122f062e UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.04-18.13.41:112][400]LogOutputDevice: Error: [Callstack] 0x00007ffe122d78a4 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.04-18.13.41:112][400]LogOutputDevice: Error: [Callstack] 0x00007ffe122caa6a UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.04-18.13.41:112][400]LogOutputDevice: Error: [Callstack] 0x00007ffe428cddce UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.04-18.13.41:113][400]LogOutputDevice: Error: [Callstack] 0x00007ffe428c0de0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.04-18.13.41:113][400]LogOutputDevice: Error: [Callstack] 0x00007ffe428d01eb UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.04-18.13.41:113][400]LogOutputDevice: Error: [Callstack] 0x00007ffe428bca19 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.04-18.13.41:113][400]LogOutputDevice: Error: [Callstack] 0x00007ffe7336ca66 USER32.dll!UnknownFunction []
+[2019.04.04-18.13.41:114][400]LogOutputDevice: Error: [Callstack] 0x00007ffe7336c582 USER32.dll!UnknownFunction []
+[2019.04.04-18.13.41:114][400]LogOutputDevice: Error: [Callstack] 0x00007ffe428d1746 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.04-18.13.41:114][400]LogOutputDevice: Error: [Callstack] 0x00007ff690225546 UE4Editor.exe!UnknownFunction []
+[2019.04.04-18.13.41:114][400]LogOutputDevice: Error: [Callstack] 0x00007ff69023596c UE4Editor.exe!UnknownFunction []
+[2019.04.04-18.13.41:114][400]LogOutputDevice: Error: [Callstack] 0x00007ff6902359ea UE4Editor.exe!UnknownFunction []
+[2019.04.04-18.13.41:115][400]LogOutputDevice: Error: [Callstack] 0x00007ff6902448da UE4Editor.exe!UnknownFunction []
+[2019.04.04-18.13.41:115][400]LogOutputDevice: Error: [Callstack] 0x00007ff69024659a UE4Editor.exe!UnknownFunction []
+[2019.04.04-18.13.41:115][400]LogOutputDevice: Error: [Callstack] 0x00007ffe72be81f4 KERNEL32.DLL!UnknownFunction []
+[2019.04.04-18.13.41:115][400]LogOutputDevice: Error: [Callstack] 0x00007ffe7397a251 ntdll.dll!UnknownFunction []
+[2019.04.04-18.13.41:115][400]LogOutputDevice: Error: 
+[2019.04.04-18.13.41:119][400]LogStats:                SubmitErrorReport -  0.000 s
+[2019.04.04-18.13.41:976][400]LogStats:                    SendNewReport -  0.857 s
+[2019.04.04-18.13.41:977][400]LogStats:             FDebug::EnsureFailed -  1.773 s
+[2019.04.04-18.13.41:979][400]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.04.04-18.13.41:981][400]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.002 s
+[2019.04.04-18.13.41:982][400]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.04-18.13.41:982][400]LogOutputDevice: Error: 
+[2019.04.04-18.13.41:982][400]LogOutputDevice: Error: Ensure condition failed: BpClass != nullptr [File:D:\Build\++UE4\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionFilter.cpp] [Line: 731]
+[2019.04.04-18.13.41:982][400]LogOutputDevice: Error: Unable to resolve IsFieldInaccessible() - Blueprint (BP_Tile) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2019.04.04-18.13.41:983][400]LogOutputDevice: Error: Stack: 
+[2019.04.04-18.13.41:983][400]LogOutputDevice: Error: [Callstack] 0x00007ffe0d54f93a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.04.04-18.13.41:983][400]LogOutputDevice: Error: [Callstack] 0x00007ffe0d54fd86 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.04.04-18.13.41:983][400]LogOutputDevice: Error: [Callstack] 0x00007ffe0d54faa1 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.04.04-18.13.41:983][400]LogOutputDevice: Error: [Callstack] 0x00007ffe10ef0f78 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:984][400]LogOutputDevice: Error: [Callstack] 0x00007ffe10f18f70 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:984][400]LogOutputDevice: Error: [Callstack] 0x00007ffe10ef1853 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:984][400]LogOutputDevice: Error: [Callstack] 0x00007ffe111a10ad UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:984][400]LogOutputDevice: Error: [Callstack] 0x00007ffe111edd89 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:985][400]LogOutputDevice: Error: [Callstack] 0x00007ffe0a71d053 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.04.04-18.13.41:985][400]LogOutputDevice: Error: [Callstack] 0x00007ffe0a62271a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.04.04-18.13.41:985][400]LogOutputDevice: Error: [Callstack] 0x00007ffe111b9896 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:985][400]LogOutputDevice: Error: [Callstack] 0x00007ffe111b4744 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:986][400]LogOutputDevice: Error: [Callstack] 0x00007ffe1118afee UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:986][400]LogOutputDevice: Error: [Callstack] 0x00007ffe111b4c71 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:986][400]LogOutputDevice: Error: [Callstack] 0x00007ffe10f8c1d8 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:986][400]LogOutputDevice: Error: [Callstack] 0x00007ffe10f82a81 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:986][400]LogOutputDevice: Error: [Callstack] 0x00007ffe10fb3d5d UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:987][400]LogOutputDevice: Error: [Callstack] 0x00007ffe10f867ff UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.04-18.13.41:987][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfde08a40 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.04.04-18.13.41:987][400]LogOutputDevice: Error: [Callstack] 0x00007ffe0b662549 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.04-18.13.41:987][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfdd92888 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.04.04-18.13.41:988][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfcc3bccd UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.04-18.13.41:988][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfcbf2959 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.04-18.13.41:988][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfcc46b33 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.04-18.13.41:988][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfcbf06aa UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.04-18.13.41:989][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfcbecff0 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.04-18.13.41:989][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfcc534a0 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.04-18.13.41:989][400]LogOutputDevice: Error: [Callstack] 0x00007ffdfcc46fff UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.04-18.13.41:989][400]LogOutputDevice: Error: [Callstack] 0x00007ffe1225886a UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.04-18.13.41:989][400]LogOutputDevice: Error: [Callstack] 0x00007ffe122f062e UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.04-18.13.41:990][400]LogOutputDevice: Error: [Callstack] 0x00007ffe122d78a4 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.04-18.13.41:990][400]LogOutputDevice: Error: [Callstack] 0x00007ffe122caa6a UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.04-18.13.41:990][400]LogOutputDevice: Error: [Callstack] 0x00007ffe428cddce UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.04-18.13.41:990][400]LogOutputDevice: Error: [Callstack] 0x00007ffe428c0de0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.04-18.13.41:990][400]LogOutputDevice: Error: [Callstack] 0x00007ffe428d01eb UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.04-18.13.41:991][400]LogOutputDevice: Error: [Callstack] 0x00007ffe428bca19 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.04-18.13.41:991][400]LogOutputDevice: Error: [Callstack] 0x00007ffe7336ca66 USER32.dll!UnknownFunction []
+[2019.04.04-18.13.41:991][400]LogOutputDevice: Error: [Callstack] 0x00007ffe7336c582 USER32.dll!UnknownFunction []
+[2019.04.04-18.13.41:991][400]LogOutputDevice: Error: [Callstack] 0x00007ffe428d1746 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.04-18.13.41:991][400]LogOutputDevice: Error: [Callstack] 0x00007ff690225546 UE4Editor.exe!UnknownFunction []
+[2019.04.04-18.13.41:992][400]LogOutputDevice: Error: [Callstack] 0x00007ff69023596c UE4Editor.exe!UnknownFunction []
+[2019.04.04-18.13.41:992][400]LogOutputDevice: Error: [Callstack] 0x00007ff6902359ea UE4Editor.exe!UnknownFunction []
+[2019.04.04-18.13.41:992][400]LogOutputDevice: Error: [Callstack] 0x00007ff6902448da UE4Editor.exe!UnknownFunction []
+[2019.04.04-18.13.41:992][400]LogOutputDevice: Error: [Callstack] 0x00007ff69024659a UE4Editor.exe!UnknownFunction []
+[2019.04.04-18.13.41:992][400]LogOutputDevice: Error: [Callstack] 0x00007ffe72be81f4 KERNEL32.DLL!UnknownFunction []
+[2019.04.04-18.13.41:992][400]LogOutputDevice: Error: [Callstack] 0x00007ffe7397a251 ntdll.dll!UnknownFunction []
+[2019.04.04-18.13.41:993][400]LogOutputDevice: Error: 
+[2019.04.04-18.13.41:993][400]LogStats:                SubmitErrorReport -  0.000 s

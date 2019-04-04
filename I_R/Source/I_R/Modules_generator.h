@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "Modules_generator.generated.h"
 
+class AModule;
+
 UCLASS()
 class I_R_API AModules_generator : public AActor
 {
@@ -15,6 +17,10 @@ public:
 	// Sets default values for this actor's properties
 	AModules_generator();
 
+	UFUNCTION(BlueprintCallable, Category = "Spawn")
+		void PlaceModule(TSubclassOf<AActor> Module, FVector Location);
+	UPROPERTY(EditDefaultsOnly, Category = "Spawn")
+		FVector Starting_Position;
 
 	UPROPERTY(EditDefaultsOnly, Category = Rooms)
 		TSubclassOf<AActor> Module_01;
@@ -27,8 +33,11 @@ public:
 
 
 private:
-	UPROPERTY(EditDefaultsOnly, Category = "Level properties")
-		FVector Starting_Position;
+		
 
-	void PlaceModule(TSubclassOf<AActor> Module, FVector Location);
+		
+
+
+
+
 };

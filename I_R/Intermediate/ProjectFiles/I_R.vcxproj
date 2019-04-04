@@ -499,7 +499,9 @@
     <NMakeOutput>..\..\Binaries\HTML5\I_R-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\I_R\Module.cpp" />
     <ClCompile Include="..\..\Source\I_R\Modules_generator.cpp" />
+    <ClInclude Include="..\..\Source\I_R\Module.h" />
     <ClInclude Include="..\..\Source\I_R\Modules_generator.h" />
     <None Include="..\..\I_R.uproject" />
     <None Include="..\..\Source\I_R.Target.cs" />

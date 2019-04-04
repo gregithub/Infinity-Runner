@@ -15,7 +15,6 @@ AModules_generator::AModules_generator()
 void AModules_generator::BeginPlay()
 {
 	Super::BeginPlay();
-
 	PlaceModule(Module_01, Starting_Position);
 	
 }
@@ -26,10 +25,6 @@ void AModules_generator::PlaceModule(TSubclassOf<AActor> Module, FVector Locatio
 	AActor* Spawned = GetWorld()->SpawnActor<AActor>(Module);
 	if (Spawned) {
 		Spawned->SetActorRelativeLocation(Location);
-		Spawned->AttachToActor(this, FAttachmentTransformRules(EAttachmentRule::KeepRelative, false));
-	
-		
-
 	}
 }
 
