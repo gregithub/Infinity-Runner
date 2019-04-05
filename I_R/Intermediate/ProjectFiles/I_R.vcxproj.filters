@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\I_R.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{58224C84-04E0-4834-B132-813224DAF110}</UniqueIdentifier>
+      <UniqueIdentifier>{C436B514-E75E-40C6-A082-55B8821847E3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\I_R.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{EF91140B-CA8D-4813-93F9-D2321FD00399}</UniqueIdentifier>
+      <UniqueIdentifier>{853DDB0D-19CA-45F7-9CA0-EB82C8DAD2F0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\I_R">
-      <UniqueIdentifier>{982596B4-0956-4452-BFBB-CBDB3E054373}</UniqueIdentifier>
+      <UniqueIdentifier>{71DADDDD-A7A2-4C7C-B3B9-8B7AF0F7496C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\I_R\I_R.Build.cs">
       <Filter>Source\I_R</Filter>
@@ -41,21 +44,17 @@
     <ClInclude Include="..\..\Source\I_R\I_RGameModeBase.h">
       <Filter>Source\I_R</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\I_R\Modules_generator.h">
-      <Filter>Source\I_R</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\I_R\Module.h">
-      <Filter>Source\I_R</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\I_R\Modules_generator.cpp">
-      <Filter>Source\I_R</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\I_R\Module.cpp">
       <Filter>Source\I_R</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\I_R\Module.h">
+      <Filter>Source\I_R</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\I_R\Modules_generator.cpp">
+      <Filter>Source\I_R</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\I_R\Modules_generator.h">
+      <Filter>Source\I_R</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

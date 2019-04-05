@@ -15,7 +15,7 @@ AModules_generator::AModules_generator()
 void AModules_generator::BeginPlay()
 {
 	Super::BeginPlay();
-	PlaceModule(Module_01, Starting_Position);
+	
 	
 }
 

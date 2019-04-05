@@ -1,19 +1,12 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\greg\Documents\Infinity-Runner).
-  Creating makefile for hot reloading I_REditor (source directory changed)
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\greg\Documents\Runner).
+  Creating makefile for hot reloading I_REditor (game project files are newer)
   Compiling game modules for hot reload
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for I_REditor
-    Running UnrealHeaderTool "C:\Users\greg\Documents\Infinity-Runner\I_R\I_R.uproject" "C:\Users\greg\Documents\Infinity-Runner\I_R\Intermediate\Build\Win64\I_REditor\Development\I_REditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for I_REditor in 11.2255856 seconds
-  Building 7 actions with 16 processes...
-    [1/7] I_R.init.gen.cpp
-    [2/7] Module.cpp
-    [3/7] Modules_generator.cpp
-    [4/7] Module.gen.cpp
-    [5/7] Modules_generator.gen.cpp
-    [6/7] UE4Editor-I_R-4299.lib
-       Creating library C:\Users\greg\Documents\Infinity-Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-4299.lib and object C:\Users\greg\Documents\Infinity-Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-4299.exp
-    [7/7] UE4Editor-I_R-4299.dll
-       Creating library C:\Users\greg\Documents\Infinity-Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-4299.suppressed.lib and object C:\Users\greg\Documents\Infinity-Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-4299.suppressed.exp
+  Building 3 actions with 16 processes...
+    [1/3] Modules_generator.cpp
+    [2/3] UE4Editor-I_R-6733.lib
+       Creating library C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-6733.lib and object C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-6733.exp
+    [3/3] UE4Editor-I_R-6733.dll
+       Creating library C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-6733.suppressed.lib and object C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-6733.suppressed.exp
   Deploying I_REditor Win64 Development...
-  Total build time: 18.01 seconds (Parallel executor: 1.61 seconds)
+  Total build time: 5.88 seconds (Parallel executor: 1.48 seconds)
