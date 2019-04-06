@@ -8,7 +8,6 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class AActor;
 #ifdef I_R_Module_generated_h
 #error "Module.generated.h already included, missing '#pragma once' in Module.h"
 #endif
@@ -29,40 +28,8 @@ class AActor;
 	I_R_API static class UScriptStruct* StaticStruct();
 
 
-#define I_R_Source_I_R_Module_h_41_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execPlaceActors) \
-	{ \
-		P_GET_OBJECT(UClass,Z_Param_ToSpawn); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_MinSpawn); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_MaxSpawn); \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_Radius); \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_MinScale); \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_MaxScale); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->PlaceActors(Z_Param_ToSpawn,Z_Param_MinSpawn,Z_Param_MaxSpawn,Z_Param_Radius,Z_Param_MinScale,Z_Param_MaxScale); \
-		P_NATIVE_END; \
-	}
-
-
-#define I_R_Source_I_R_Module_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execPlaceActors) \
-	{ \
-		P_GET_OBJECT(UClass,Z_Param_ToSpawn); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_MinSpawn); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_MaxSpawn); \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_Radius); \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_MinScale); \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_MaxScale); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->PlaceActors(Z_Param_ToSpawn,Z_Param_MinSpawn,Z_Param_MaxSpawn,Z_Param_Radius,Z_Param_MinScale,Z_Param_MaxScale); \
-		P_NATIVE_END; \
-	}
-
-
+#define I_R_Source_I_R_Module_h_41_RPC_WRAPPERS
+#define I_R_Source_I_R_Module_h_41_RPC_WRAPPERS_NO_PURE_DECLS
 #define I_R_Source_I_R_Module_h_41_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAModule(); \

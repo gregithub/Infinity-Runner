@@ -18,11 +18,11 @@
 	"Launch": "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-I_R-3170.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-I_R-6210.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-I_R-3170.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-I_R-6210.pdb",
 			"Type": "SymbolFile"
 		},
 		{

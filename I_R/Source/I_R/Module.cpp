@@ -31,72 +31,8 @@ FSpawn_Locations AModule::Set_Locations_for_spawn() {
 	
 	return Locations;
 }
-void AModule::PlaceActors(TSubclassOf<AActor> ToSpawn, int MinSpawn, int MaxSpawn, float Radius, float MinScale, float MaxScale)
-{
-	TArray<FSpawn_Position> SpawnPositions = RandomSpawnPositions(MinSpawn, MaxSpawn, Radius, MinScale, MaxScale);
-	for (FSpawn_Position SpawnPosition : SpawnPositions)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("IM HERE"));
 
-		PlaceActor(ToSpawn, SpawnPosition);
-	}
-}
 
-TArray<FSpawn_Position> AModule::RandomSpawnPositions(int MinSpawn, int MaxSpawn, float Radius, float MinScale, float MaxScale)
-{
-	TArray<FSpawn_Position> SpawnPositions;
-	int NumberToSpawn = FMath::RandRange(MinSpawn, MaxSpawn);
-	for (size_t i = 0; i < NumberToSpawn; i++)
-	{
-		FSpawn_Position SpawnPosition;
-		SpawnPosition.Scale = FMath::RandRange(MinScale, MaxScale);
-		bool found = FindEmptyLocation(SpawnPosition.Location, Radius * SpawnPosition.Scale);
-		UE_LOG(LogTemp, Warning, TEXT("Before bool found"));
-
-		if (found)
-		{
-			UE_LOG(LogTemp, Warning, TEXT("bool found"));
-
-			SpawnPosition.Rotation = FMath::RandRange(-180.f, 180.f);
-			SpawnPositions.Add(SpawnPosition);
-		}
-	}
-
-	return SpawnPositions;
-}
-
-bool AModule::FindEmptyLocation(FVector& OutLocation, float Radius) {
-	FBox Bounds(MinExtent, MaxExtent);
-	const int MAX_ATTEMPTS = 100;
-	for (size_t i = 0; i < MAX_ATTEMPTS; i++)
-	{
-		FVector CandidatePoint = FMath::RandPointInBox(Bounds);
-		if (CanSpawnAtLocation(CandidatePoint, Radius)) {
-			UE_LOG(LogTemp, Warning, TEXT("Can spawn at location"));
-
-			OutLocation = CandidatePoint;
-			return true;
-		}
-	}
-	return false;
-}
-
-bool AModule::CanSpawnAtLocation(FVector Location, float Radius)
-{
-	FHitResult HitResult;
-	FVector GlobalLocation = ActorToWorld().TransformPosition(Location);
-	UE_LOG(LogTemp, Warning, TEXT("Location: %s"),*Location.ToString());
-
-	bool HasHit = GetWorld()->SweepSingleByChannel(
-		HitResult,
-		GlobalLocation,
-		GlobalLocation,
-		FQuat::Identity,
-		ECollisionChannel::ECC_WorldStatic, //TODO pick correct channel
-		FCollisionShape::MakeSphere(Radius)
-	);
-	return !HasHit;
-}
 
 void AModule::PlaceActor(TSubclassOf<AActor> ToSpawn, FSpawn_Position SpawnPosition) {
 	AActor* Spawned = GetWorld()->SpawnActor<AActor>(ToSpawn);

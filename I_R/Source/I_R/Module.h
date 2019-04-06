@@ -44,10 +44,6 @@ public:
 	// Sets default values for this actor's properties
 	AModule();
 
-	UFUNCTION(BlueprintCallable, Category = "Spawning")
-		void PlaceActors(TSubclassOf<AActor> ToSpawn,
-			int MinSpawn = 1, int MaxSpawn = 1, float Radius = 500, float MinScale = 1, float MaxScale = 1);
-
 	UPROPERTY(EditDefaultsOnly, Category = Spawn_objects)
 		TSubclassOf<AActor> Spawn_01;
 protected:
@@ -64,13 +60,10 @@ private:
 	FSpawn_Locations Set_Locations_for_spawn();
 
 
-	TArray<FSpawn_Position> RandomSpawnPositions(int MinSpawn, int MaxSpawn, float Radius, float MinScale, float MaxScale);
 
-	bool FindEmptyLocation(FVector& OutLocation, float Radius);
 
 	void PlaceActor(TSubclassOf<AActor> ToSpawn, FSpawn_Position SpawnPosition);
 	void PlaceActor(TSubclassOf<AActor> ToSpawn, FVector SpawnLocation);
 
-	bool CanSpawnAtLocation(FVector Location, float Radius);
-
+	
 };
