@@ -11,10 +11,10 @@ USTRUCT()
 struct FSpawn_Locations {
 	GENERATED_USTRUCT_BODY()
 
-	FVector Location_first;
-	FVector Location_second;
-	FVector Location_third;
-	FVector Location_fourth;
+	FVector Location_first = FVector(500, -400, 100);
+	FVector Location_second = FVector(500, -125, 100);
+	FVector Location_third = FVector(500, 125, 100);
+	FVector Location_fourth = FVector(500, 400, 100);
 };
 USTRUCT()
 struct FIs_Location_Taken {
@@ -23,9 +23,7 @@ struct FIs_Location_Taken {
 	bool first;
 	bool second;
 	bool third;
-	bool fourth;
-	int32 Free_Locations = 4;
-	
+	bool fourth;	
 };
 
 
@@ -39,7 +37,7 @@ public:
 	AModule();
 
 	UPROPERTY(EditDefaultsOnly, Category = Spawn_properties)
-		int32 Objects_to_spawn = 1;
+		int32 Number_objects_to_spawn = 1;
 
 	UPROPERTY(EditDefaultsOnly, Category = Spawn_objects)
 		TSubclassOf<AActor> Spawn_01;
@@ -50,12 +48,11 @@ protected:
 	
 private:	
 
-	TArray<int32> Is_Taken;
 	FSpawn_Locations Spawn_Locations;
-	FSpawn_Locations Set_Locations_for_spawn();
 	FIs_Location_Taken Taken_Locations;
 	
-	void Randomly_Spawn_Actors(int32 Quantity);
+	UFUNCTION(BlueprintCallable, Category = "SpawnObjects")
+		void Randomly_Spawn_Actors(TSubclassOf<AActor> ToSpawn,int32 Quantity);
 	FVector Find_free_location(FIs_Location_Taken& Is_Location_Free);
 
 	void PlaceActor(TSubclassOf<AActor> ToSpawn, FVector SpawnLocation);

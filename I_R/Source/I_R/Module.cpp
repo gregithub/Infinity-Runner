@@ -10,36 +10,26 @@ AModule::AModule()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
-	
 }
 
 // Called when the game starts or when spawned
 void AModule::BeginPlay()
 {
 	Super::BeginPlay();
-	Spawn_Locations = Set_Locations_for_spawn();
 	
 
-	Randomly_Spawn_Actors(Objects_to_spawn);
+	//Randomly_Spawn_Actors(Spawn_01, Number_objects_to_spawn);
 }
 
-FSpawn_Locations AModule::Set_Locations_for_spawn() {
-	FSpawn_Locations Locations;
-	Locations.Location_first = FVector(500, -400, 100);
-	Locations.Location_second = FVector(500, -125, 100);
-	Locations.Location_third = FVector(500, 125, 100);
-	Locations.Location_fourth= FVector(500, 400, 100);
-	
-	return Locations;
-}
 
-void AModule::Randomly_Spawn_Actors(int32 Quantity) {
-	FVector Location=FVector(0,0,0);
+void AModule::Randomly_Spawn_Actors(TSubclassOf<AActor> ToSpawn,int32 Quantity) {
 	Quantity = FMath::Clamp(Quantity, 0, 4);
 	for (int i = 0; i < Quantity; i++) {
-		Location = Find_free_location(Taken_Locations);
+		FVector Location = Find_free_location(Taken_Locations);
 		if (Location != FVector(0, 0, 0)) {
-			PlaceActor(Spawn_01, Location);
+			UE_LOG(LogTemp, Warning, TEXT("Spawning."));
+
+			PlaceActor(ToSpawn, Location);
 		}
 	}
 	
@@ -53,24 +43,34 @@ FVector AModule::Find_free_location(FIs_Location_Taken& Is_Location_Free) {
 		RandomPosition = FMath::RandRange(0, 3);
 		if (RandomPosition == 0 && !Is_Location_Free.first) {
 			Is_Location_Free.first = true;
+			UE_LOG(LogTemp, Warning, TEXT("FOUND."));
+
 			return Spawn_Locations.Location_first;
 		}
 		else if (RandomPosition == 1 && !Is_Location_Free.second) {
 			Is_Location_Free.second = true;
+			UE_LOG(LogTemp, Warning, TEXT("FOUND."));
+
 			return Spawn_Locations.Location_second;
 		}
 		else if (RandomPosition == 2 && !Is_Location_Free.third) {
 			Is_Location_Free.third = true;
+			UE_LOG(LogTemp, Warning, TEXT("FOUND."));
+
 			return Spawn_Locations.Location_third;
 		}
 		else if (RandomPosition == 3 && !Is_Location_Free.fourth) {
 			Is_Location_Free.fourth = true;
+			UE_LOG(LogTemp, Warning, TEXT("FOUND.") );
+
 			return Spawn_Locations.Location_fourth;
 		}
 		else {
 			MAX_ATTEMPTS--;
 		}
 	}
+	UE_LOG(LogTemp, Warning, TEXT("Didn't find location.") );
+
 	return FVector(0, 0, 0);
 }
 
