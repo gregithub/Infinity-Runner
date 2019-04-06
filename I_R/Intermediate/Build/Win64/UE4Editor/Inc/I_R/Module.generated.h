@@ -72,11 +72,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AModule); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AModule)
 
 
-#define I_R_Source_I_R_Module_h_41_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__MinExtent() { return STRUCT_OFFSET(AModule, MinExtent); } \
-	FORCEINLINE static uint32 __PPO__MaxExtent() { return STRUCT_OFFSET(AModule, MaxExtent); }
-
-
+#define I_R_Source_I_R_Module_h_41_PRIVATE_PROPERTY_OFFSET
 #define I_R_Source_I_R_Module_h_38_PROLOG
 #define I_R_Source_I_R_Module_h_41_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

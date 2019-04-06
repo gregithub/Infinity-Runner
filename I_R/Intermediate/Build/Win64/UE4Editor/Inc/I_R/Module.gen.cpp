@@ -20,7 +20,6 @@ void EmptyLinkFunctionForGeneratedCodeModule() {}
 	I_R_API UClass* Z_Construct_UClass_AModule_NoRegister();
 	I_R_API UClass* Z_Construct_UClass_AModule();
 	I_R_API UClass* Z_Construct_UClass_AModules_generator();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
@@ -227,17 +226,13 @@ static struct FScriptStruct_I_R_StaticRegisterNativesFSpawn_Position
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxExtent_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_MaxExtent;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MinExtent_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_MinExtent;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Spawn_01_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Spawn_01;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Objects_to_spawn_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Objects_to_spawn;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -253,30 +248,22 @@ static struct FScriptStruct_I_R_StaticRegisterNativesFSpawn_Position
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AModule_Statics::NewProp_MaxExtent_MetaData[] = {
-		{ "Category", "Spawning" },
-		{ "ModuleRelativePath", "Module.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AModule_Statics::NewProp_MaxExtent = { UE4CodeGen_Private::EPropertyClass::Struct, "MaxExtent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000010001, 1, nullptr, STRUCT_OFFSET(AModule, MaxExtent), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AModule_Statics::NewProp_MaxExtent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AModule_Statics::NewProp_MaxExtent_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AModule_Statics::NewProp_MinExtent_MetaData[] = {
-		{ "Category", "Spawning" },
-		{ "ModuleRelativePath", "Module.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AModule_Statics::NewProp_MinExtent = { UE4CodeGen_Private::EPropertyClass::Struct, "MinExtent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000010001, 1, nullptr, STRUCT_OFFSET(AModule, MinExtent), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AModule_Statics::NewProp_MinExtent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AModule_Statics::NewProp_MinExtent_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AModule_Statics::NewProp_Spawn_01_MetaData[] = {
 		{ "Category", "Spawn_objects" },
 		{ "ModuleRelativePath", "Module.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AModule_Statics::NewProp_Spawn_01 = { UE4CodeGen_Private::EPropertyClass::Class, "Spawn_01", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000010001, 1, nullptr, STRUCT_OFFSET(AModule, Spawn_01), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AModule_Statics::NewProp_Spawn_01_MetaData, ARRAY_COUNT(Z_Construct_UClass_AModule_Statics::NewProp_Spawn_01_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AModule_Statics::NewProp_Objects_to_spawn_MetaData[] = {
+		{ "Category", "Spawn_properties" },
+		{ "ModuleRelativePath", "Module.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AModule_Statics::NewProp_Objects_to_spawn = { UE4CodeGen_Private::EPropertyClass::Int, "Objects_to_spawn", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000010001, 1, nullptr, STRUCT_OFFSET(AModule, Objects_to_spawn), METADATA_PARAMS(Z_Construct_UClass_AModule_Statics::NewProp_Objects_to_spawn_MetaData, ARRAY_COUNT(Z_Construct_UClass_AModule_Statics::NewProp_Objects_to_spawn_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AModule_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AModule_Statics::NewProp_MaxExtent,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AModule_Statics::NewProp_MinExtent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AModule_Statics::NewProp_Spawn_01,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AModule_Statics::NewProp_Objects_to_spawn,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AModule_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AModule>::IsAbstract,
@@ -301,7 +288,7 @@ static struct FScriptStruct_I_R_StaticRegisterNativesFSpawn_Position
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AModule, 4162194408);
+	IMPLEMENT_CLASS(AModule, 766942032);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AModule(Z_Construct_UClass_AModule, &AModule::StaticClass, TEXT("/Script/I_R"), TEXT("AModule"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AModule);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

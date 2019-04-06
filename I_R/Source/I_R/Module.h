@@ -44,23 +44,24 @@ public:
 	// Sets default values for this actor's properties
 	AModule();
 
+	UPROPERTY(EditDefaultsOnly, Category = Spawn_properties)
+		int32 Objects_to_spawn = 1;
+
 	UPROPERTY(EditDefaultsOnly, Category = Spawn_objects)
 		TSubclassOf<AActor> Spawn_01;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
-		FVector MinExtent;
-	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
-		FVector MaxExtent;
+	
 private:	
 
 	FSpawn_Locations Spawn_Locations;
 	FSpawn_Locations Set_Locations_for_spawn();
-
-
-
+	FIs_Location_Taken Taken_Locations;
+	
+	void Randomly_Spawn_Actors(int32 Quantity);
+	FVector Find_free_location(FIs_Location_Taken& Is_Location_Free);
 
 	void PlaceActor(TSubclassOf<AActor> ToSpawn, FSpawn_Position SpawnPosition);
 	void PlaceActor(TSubclassOf<AActor> ToSpawn, FVector SpawnLocation);
