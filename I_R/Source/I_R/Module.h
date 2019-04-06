@@ -8,15 +8,6 @@
 #include "Module.generated.h"
 
 USTRUCT()
-struct FSpawn_Position {
-	GENERATED_USTRUCT_BODY()
-
-	FVector Location;
-	float Rotation;
-	float Scale;
-};
-
-USTRUCT()
 struct FSpawn_Locations {
 	GENERATED_USTRUCT_BODY()
 
@@ -33,7 +24,10 @@ struct FIs_Location_Taken {
 	bool second;
 	bool third;
 	bool fourth;
+	int32 Free_Locations = 4;
+	
 };
+
 
 UCLASS()
 class I_R_API AModule : public AModules_generator
@@ -56,6 +50,7 @@ protected:
 	
 private:	
 
+	TArray<int32> Is_Taken;
 	FSpawn_Locations Spawn_Locations;
 	FSpawn_Locations Set_Locations_for_spawn();
 	FIs_Location_Taken Taken_Locations;
@@ -63,7 +58,6 @@ private:
 	void Randomly_Spawn_Actors(int32 Quantity);
 	FVector Find_free_location(FIs_Location_Taken& Is_Location_Free);
 
-	void PlaceActor(TSubclassOf<AActor> ToSpawn, FSpawn_Position SpawnPosition);
 	void PlaceActor(TSubclassOf<AActor> ToSpawn, FVector SpawnLocation);
 
 	

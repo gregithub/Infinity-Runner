@@ -18,6 +18,7 @@ void AModule::BeginPlay()
 {
 	Super::BeginPlay();
 	Spawn_Locations = Set_Locations_for_spawn();
+	
 
 	Randomly_Spawn_Actors(Objects_to_spawn);
 }
@@ -46,23 +47,28 @@ void AModule::Randomly_Spawn_Actors(int32 Quantity) {
 }
 
 FVector AModule::Find_free_location(FIs_Location_Taken& Is_Location_Free) {
-	const int32 MAX_ATTEMPTS = 10;
-	for (int i = 0; i < MAX_ATTEMPTS; i++) {
-		switch (FMath::RandRange(0, 3)) {
-		case 0:
+	int32 MAX_ATTEMPTS = 10;
+	int32 RandomPosition;
+	while (MAX_ATTEMPTS > 0) {
+		RandomPosition = FMath::RandRange(0, 3);
+		if (RandomPosition == 0 && !Is_Location_Free.first) {
 			Is_Location_Free.first = true;
 			return Spawn_Locations.Location_first;
-		case 1:
+		}
+		else if (RandomPosition == 1 && !Is_Location_Free.second) {
 			Is_Location_Free.second = true;
 			return Spawn_Locations.Location_second;
-		case 2:
+		}
+		else if (RandomPosition == 2 && !Is_Location_Free.third) {
 			Is_Location_Free.third = true;
 			return Spawn_Locations.Location_third;
-		case 3:
-			Is_Location_Free.fourth= true;
+		}
+		else if (RandomPosition == 3 && !Is_Location_Free.fourth) {
+			Is_Location_Free.fourth = true;
 			return Spawn_Locations.Location_fourth;
-		default:
-			return FVector(0, 0, 0);
+		}
+		else {
+			MAX_ATTEMPTS--;
 		}
 	}
 	return FVector(0, 0, 0);
@@ -70,15 +76,6 @@ FVector AModule::Find_free_location(FIs_Location_Taken& Is_Location_Free) {
 
 
 
-void AModule::PlaceActor(TSubclassOf<AActor> ToSpawn, FSpawn_Position SpawnPosition) {
-	AActor* Spawned = GetWorld()->SpawnActor<AActor>(ToSpawn);
-	Spawned->SetActorRelativeLocation(SpawnPosition.Location);
-	Spawned->AttachToActor(this, FAttachmentTransformRules(EAttachmentRule::KeepRelative, false));
-	Spawned->SetActorRotation(FRotator(0, SpawnPosition.Rotation, 0));
-	Spawned->SetActorScale3D(FVector(SpawnPosition.Scale));
-	UE_LOG(LogTemp, Warning, TEXT("Actor spawned"));
-
-}
 void AModule::PlaceActor(TSubclassOf<AActor> ToSpawn, FVector SpawnLocation) {
 	AActor* Spawned = GetWorld()->SpawnActor<AActor>(ToSpawn);
 	Spawned->SetActorRelativeLocation(SpawnLocation);

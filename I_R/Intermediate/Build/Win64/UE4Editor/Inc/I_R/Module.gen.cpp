@@ -16,7 +16,6 @@ void EmptyLinkFunctionForGeneratedCodeModule() {}
 	I_R_API UScriptStruct* Z_Construct_UScriptStruct_FIs_Location_Taken();
 	UPackage* Z_Construct_UPackage__Script_I_R();
 	I_R_API UScriptStruct* Z_Construct_UScriptStruct_FSpawn_Locations();
-	I_R_API UScriptStruct* Z_Construct_UScriptStruct_FSpawn_Position();
 	I_R_API UClass* Z_Construct_UClass_AModule_NoRegister();
 	I_R_API UClass* Z_Construct_UClass_AModule();
 	I_R_API UClass* Z_Construct_UClass_AModules_generator();
@@ -149,69 +148,6 @@ static struct FScriptStruct_I_R_StaticRegisterNativesFSpawn_Locations
 		return ReturnStruct;
 	}
 	uint32 Get_Z_Construct_UScriptStruct_FSpawn_Locations_CRC() { return 1184039125U; }
-class UScriptStruct* FSpawn_Position::StaticStruct()
-{
-	static class UScriptStruct* Singleton = NULL;
-	if (!Singleton)
-	{
-		extern I_R_API uint32 Get_Z_Construct_UScriptStruct_FSpawn_Position_CRC();
-		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FSpawn_Position, Z_Construct_UPackage__Script_I_R(), TEXT("Spawn_Position"), sizeof(FSpawn_Position), Get_Z_Construct_UScriptStruct_FSpawn_Position_CRC());
-	}
-	return Singleton;
-}
-static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FSpawn_Position(FSpawn_Position::StaticStruct, TEXT("/Script/I_R"), TEXT("Spawn_Position"), false, nullptr, nullptr);
-static struct FScriptStruct_I_R_StaticRegisterNativesFSpawn_Position
-{
-	FScriptStruct_I_R_StaticRegisterNativesFSpawn_Position()
-	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("Spawn_Position")),new UScriptStruct::TCppStructOps<FSpawn_Position>);
-	}
-} ScriptStruct_I_R_StaticRegisterNativesFSpawn_Position;
-	struct Z_Construct_UScriptStruct_FSpawn_Position_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
-#endif
-		static void* NewStructOps();
-		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSpawn_Position_Statics::Struct_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Module.h" },
-	};
-#endif
-	void* Z_Construct_UScriptStruct_FSpawn_Position_Statics::NewStructOps()
-	{
-		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FSpawn_Position>();
-	}
-	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FSpawn_Position_Statics::ReturnStructParams = {
-		(UObject* (*)())Z_Construct_UPackage__Script_I_R,
-		nullptr,
-		&NewStructOps,
-		"Spawn_Position",
-		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000001),
-		sizeof(FSpawn_Position),
-		alignof(FSpawn_Position),
-		nullptr, 0,
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FSpawn_Position_Statics::Struct_MetaDataParams, ARRAY_COUNT(Z_Construct_UScriptStruct_FSpawn_Position_Statics::Struct_MetaDataParams))
-	};
-	UScriptStruct* Z_Construct_UScriptStruct_FSpawn_Position()
-	{
-#if WITH_HOT_RELOAD
-		extern uint32 Get_Z_Construct_UScriptStruct_FSpawn_Position_CRC();
-		UPackage* Outer = Z_Construct_UPackage__Script_I_R();
-		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("Spawn_Position"), sizeof(FSpawn_Position), Get_Z_Construct_UScriptStruct_FSpawn_Position_CRC(), false);
-#else
-		static UScriptStruct* ReturnStruct = nullptr;
-#endif
-		if (!ReturnStruct)
-		{
-			UE4CodeGen_Private::ConstructUScriptStruct(ReturnStruct, Z_Construct_UScriptStruct_FSpawn_Position_Statics::ReturnStructParams);
-		}
-		return ReturnStruct;
-	}
-	uint32 Get_Z_Construct_UScriptStruct_FSpawn_Position_CRC() { return 491484786U; }
 	void AModule::StaticRegisterNativesAModule()
 	{
 	}
