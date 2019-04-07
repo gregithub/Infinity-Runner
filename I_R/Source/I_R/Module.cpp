@@ -66,7 +66,6 @@ FVector AModule::Find_free_location(FIs_Location_Taken& Taken_Location) {
 			MAX_ATTEMPTS--;
 		}
 	}
-	UE_LOG(LogTemp, Warning, TEXT("Didn't find location.") );
 
 	return FVector(0, 0, 0);
 }

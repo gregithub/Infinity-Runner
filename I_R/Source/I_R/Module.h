@@ -35,12 +35,9 @@ class I_R_API AModule : public AModules_generator
 public:	
 	// Sets default values for this actor's properties
 	AModule();
-
-	UPROPERTY(EditDefaultsOnly, Category = Spawn_properties)
-		int32 Number_objects_to_spawn = 1;
-
-	UPROPERTY(EditDefaultsOnly, Category = Spawn_objects)
-		TSubclassOf<AActor> Spawn_01;
+	UFUNCTION(BlueprintCallable, Category = "SpawnObjects")
+		void Randomly_Spawn_Actors(TSubclassOf<AActor> ToSpawn, int32 Quantity);
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -51,8 +48,6 @@ private:
 	FSpawn_Locations Spawn_Locations;
 	FIs_Location_Taken Taken_Locations;
 	
-	UFUNCTION(BlueprintCallable, Category = "SpawnObjects")
-		void Randomly_Spawn_Actors(TSubclassOf<AActor> ToSpawn,int32 Quantity);
 
 
 	FVector Find_free_location(FIs_Location_Taken& Is_Location_Free);
