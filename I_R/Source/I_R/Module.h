@@ -20,10 +20,10 @@ USTRUCT()
 struct FIs_Location_Taken {
 	GENERATED_USTRUCT_BODY()
 
-	bool first;
-	bool second;
-	bool third;
-	bool fourth;	
+	bool first=false;
+	bool second=false;
+	bool third=false;
+	bool fourth=false;	
 };
 
 
@@ -53,9 +53,11 @@ private:
 	
 	UFUNCTION(BlueprintCallable, Category = "SpawnObjects")
 		void Randomly_Spawn_Actors(TSubclassOf<AActor> ToSpawn,int32 Quantity);
+
 	FVector Find_free_location(FIs_Location_Taken& Is_Location_Free);
 
-	void PlaceActor(TSubclassOf<AActor> ToSpawn, FVector SpawnLocation);
+	UFUNCTION(BlueprintCallable, Category = "SpawnObjects")
+		void PlaceActor(TSubclassOf<AActor> ToSpawn, FVector SpawnLocation);
 
 	
 };

@@ -35,28 +35,28 @@ void AModule::Randomly_Spawn_Actors(TSubclassOf<AActor> ToSpawn,int32 Quantity) 
 
 }
 
-FVector AModule::Find_free_location(FIs_Location_Taken& Is_Location_Free) {
+FVector AModule::Find_free_location(FIs_Location_Taken& Taken_Location) {
 	int32 MAX_ATTEMPTS = 10;
 	int32 RandomPosition;
 	while (MAX_ATTEMPTS > 0) {
 		RandomPosition = FMath::RandRange(0, 3);
-		if (RandomPosition == 0 && !Is_Location_Free.first) {
-			Is_Location_Free.first = true;
+		if (RandomPosition == 0 && !Taken_Location.first) {
+			Taken_Location.first = true;
 
 			return Spawn_Locations.Location_first;
 		}
-		else if (RandomPosition == 1 && !Is_Location_Free.second) {
-			Is_Location_Free.second = true;
+		else if (RandomPosition == 1 && !Taken_Location.second) {
+			Taken_Location.second = true;
 
 			return Spawn_Locations.Location_second;
 		}
-		else if (RandomPosition == 2 && !Is_Location_Free.third) {
-			Is_Location_Free.third = true;
+		else if (RandomPosition == 2 && !Taken_Location.third) {
+			Taken_Location.third = true;
 
 			return Spawn_Locations.Location_third;
 		}
-		else if (RandomPosition == 3 && !Is_Location_Free.fourth) {
-			Is_Location_Free.fourth = true;
+		else if (RandomPosition == 3 && !Taken_Location.fourth) {
+			Taken_Location.fourth = true;
 
 			return Spawn_Locations.Location_fourth;
 		}

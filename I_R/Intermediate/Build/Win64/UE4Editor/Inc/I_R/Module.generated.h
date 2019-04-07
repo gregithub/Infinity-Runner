@@ -9,6 +9,7 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class AActor;
+struct FVector;
 #ifdef I_R_Module_generated_h
 #error "Module.generated.h already included, missing '#pragma once' in Module.h"
 #endif
@@ -26,6 +27,16 @@ class AActor;
 
 #define I_R_Source_I_R_Module_h_33_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execPlaceActor) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_ToSpawn); \
+		P_GET_STRUCT(FVector,Z_Param_SpawnLocation); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PlaceActor(Z_Param_ToSpawn,Z_Param_SpawnLocation); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execRandomly_Spawn_Actors) \
 	{ \
 		P_GET_OBJECT(UClass,Z_Param_ToSpawn); \
@@ -38,6 +49,16 @@ class AActor;
 
 
 #define I_R_Source_I_R_Module_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execPlaceActor) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_ToSpawn); \
+		P_GET_STRUCT(FVector,Z_Param_SpawnLocation); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PlaceActor(Z_Param_ToSpawn,Z_Param_SpawnLocation); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execRandomly_Spawn_Actors) \
 	{ \

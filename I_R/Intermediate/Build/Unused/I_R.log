@@ -2,11 +2,16 @@
   Creating makefile for hot reloading I_REditor (source directory changed)
   Compiling game modules for hot reload
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 16 processes...
-    [1/3] Module.cpp
-    [2/3] UE4Editor-I_R-8449.lib
-       Creating library C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-8449.lib and object C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-8449.exp
-    [3/3] UE4Editor-I_R-8449.dll
-       Creating library C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-8449.suppressed.lib and object C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-8449.suppressed.exp
+  Parsing headers for I_REditor
+    Running UnrealHeaderTool "C:\Users\greg\Documents\Runner\I_R\I_R.uproject" "C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\I_REditor\Development\I_REditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for I_REditor in 10.8392658 seconds
+  Building 5 actions with 16 processes...
+    [1/5] I_R.init.gen.cpp
+    [2/5] Module.cpp
+    [3/5] Module.gen.cpp
+    [4/5] UE4Editor-I_R-3875.lib
+       Creating library C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-3875.lib and object C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-3875.exp
+    [5/5] UE4Editor-I_R-3875.dll
+       Creating library C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-3875.suppressed.lib and object C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-3875.suppressed.exp
   Deploying I_REditor Win64 Development...
-  Total build time: 19.36 seconds (Parallel executor: 14.43 seconds)
+  Total build time: 17.76 seconds (Parallel executor: 1.86 seconds)

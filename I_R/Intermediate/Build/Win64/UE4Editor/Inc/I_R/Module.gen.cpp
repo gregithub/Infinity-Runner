@@ -19,9 +19,11 @@ void EmptyLinkFunctionForGeneratedCodeModule() {}
 	I_R_API UClass* Z_Construct_UClass_AModule_NoRegister();
 	I_R_API UClass* Z_Construct_UClass_AModule();
 	I_R_API UClass* Z_Construct_UClass_AModules_generator();
-	I_R_API UFunction* Z_Construct_UFunction_AModule_Randomly_Spawn_Actors();
+	I_R_API UFunction* Z_Construct_UFunction_AModule_PlaceActor();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	I_R_API UFunction* Z_Construct_UFunction_AModule_Randomly_Spawn_Actors();
 // End Cross Module References
 class UScriptStruct* FIs_Location_Taken::StaticStruct()
 {
@@ -153,9 +155,47 @@ static struct FScriptStruct_I_R_StaticRegisterNativesFSpawn_Locations
 	{
 		UClass* Class = AModule::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "PlaceActor", &AModule::execPlaceActor },
 			{ "Randomly_Spawn_Actors", &AModule::execRandomly_Spawn_Actors },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AModule_PlaceActor_Statics
+	{
+		struct Module_eventPlaceActor_Parms
+		{
+			TSubclassOf<AActor>  ToSpawn;
+			FVector SpawnLocation;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_SpawnLocation;
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ToSpawn;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AModule_PlaceActor_Statics::NewProp_SpawnLocation = { UE4CodeGen_Private::EPropertyClass::Struct, "SpawnLocation", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(Module_eventPlaceActor_Parms, SpawnLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_AModule_PlaceActor_Statics::NewProp_ToSpawn = { UE4CodeGen_Private::EPropertyClass::Class, "ToSpawn", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(Module_eventPlaceActor_Parms, ToSpawn), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AModule_PlaceActor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AModule_PlaceActor_Statics::NewProp_SpawnLocation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AModule_PlaceActor_Statics::NewProp_ToSpawn,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AModule_PlaceActor_Statics::Function_MetaDataParams[] = {
+		{ "Category", "SpawnObjects" },
+		{ "ModuleRelativePath", "Module.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AModule_PlaceActor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AModule, "PlaceActor", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04840401, sizeof(Module_eventPlaceActor_Parms), Z_Construct_UFunction_AModule_PlaceActor_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AModule_PlaceActor_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AModule_PlaceActor_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AModule_PlaceActor_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AModule_PlaceActor()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AModule_PlaceActor_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AModule_Randomly_Spawn_Actors_Statics
 	{
@@ -222,6 +262,7 @@ static struct FScriptStruct_I_R_StaticRegisterNativesFSpawn_Locations
 		(UObject* (*)())Z_Construct_UPackage__Script_I_R,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AModule_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AModule_PlaceActor, "PlaceActor" }, // 3457510571
 		{ &Z_Construct_UFunction_AModule_Randomly_Spawn_Actors, "Randomly_Spawn_Actors" }, // 485648210
 	};
 #if WITH_METADATA
@@ -271,7 +312,7 @@ static struct FScriptStruct_I_R_StaticRegisterNativesFSpawn_Locations
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AModule, 1829406448);
+	IMPLEMENT_CLASS(AModule, 3137489904);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AModule(Z_Construct_UClass_AModule, &AModule::StaticClass, TEXT("/Script/I_R"), TEXT("AModule"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AModule);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
