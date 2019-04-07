@@ -8,6 +8,7 @@
 
 class AModule;
 
+
 UCLASS()
 class I_R_API AModules_generator : public AActor
 {
@@ -22,8 +23,6 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = "Spawn")
 		FVector Starting_Position;
 
-	UPROPERTY(EditDefaultsOnly, Category = Rooms)
-		TSubclassOf<AActor> Module_01;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

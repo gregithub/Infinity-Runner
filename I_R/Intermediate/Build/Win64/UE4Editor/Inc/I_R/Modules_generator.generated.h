@@ -15,7 +15,7 @@ struct FVector;
 #endif
 #define I_R_Modules_generator_generated_h
 
-#define I_R_Source_I_R_Modules_generator_h_14_RPC_WRAPPERS \
+#define I_R_Source_I_R_Modules_generator_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execPlaceModule) \
 	{ \
@@ -28,7 +28,7 @@ struct FVector;
 	}
 
 
-#define I_R_Source_I_R_Modules_generator_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define I_R_Source_I_R_Modules_generator_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execPlaceModule) \
 	{ \
@@ -41,7 +41,7 @@ struct FVector;
 	}
 
 
-#define I_R_Source_I_R_Modules_generator_h_14_INCLASS_NO_PURE_DECLS \
+#define I_R_Source_I_R_Modules_generator_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAModules_generator(); \
 	friend struct Z_Construct_UClass_AModules_generator_Statics; \
@@ -50,7 +50,7 @@ public: \
 	DECLARE_SERIALIZER(AModules_generator)
 
 
-#define I_R_Source_I_R_Modules_generator_h_14_INCLASS \
+#define I_R_Source_I_R_Modules_generator_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAModules_generator(); \
 	friend struct Z_Construct_UClass_AModules_generator_Statics; \
@@ -59,7 +59,7 @@ public: \
 	DECLARE_SERIALIZER(AModules_generator)
 
 
-#define I_R_Source_I_R_Modules_generator_h_14_STANDARD_CONSTRUCTORS \
+#define I_R_Source_I_R_Modules_generator_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AModules_generator(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AModules_generator) \
@@ -72,7 +72,7 @@ private: \
 public:
 
 
-#define I_R_Source_I_R_Modules_generator_h_14_ENHANCED_CONSTRUCTORS \
+#define I_R_Source_I_R_Modules_generator_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AModules_generator(AModules_generator&&); \
@@ -83,26 +83,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AModules_generator); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AModules_generator)
 
 
-#define I_R_Source_I_R_Modules_generator_h_14_PRIVATE_PROPERTY_OFFSET
-#define I_R_Source_I_R_Modules_generator_h_11_PROLOG
-#define I_R_Source_I_R_Modules_generator_h_14_GENERATED_BODY_LEGACY \
+#define I_R_Source_I_R_Modules_generator_h_15_PRIVATE_PROPERTY_OFFSET
+#define I_R_Source_I_R_Modules_generator_h_12_PROLOG
+#define I_R_Source_I_R_Modules_generator_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	I_R_Source_I_R_Modules_generator_h_14_PRIVATE_PROPERTY_OFFSET \
-	I_R_Source_I_R_Modules_generator_h_14_RPC_WRAPPERS \
-	I_R_Source_I_R_Modules_generator_h_14_INCLASS \
-	I_R_Source_I_R_Modules_generator_h_14_STANDARD_CONSTRUCTORS \
+	I_R_Source_I_R_Modules_generator_h_15_PRIVATE_PROPERTY_OFFSET \
+	I_R_Source_I_R_Modules_generator_h_15_RPC_WRAPPERS \
+	I_R_Source_I_R_Modules_generator_h_15_INCLASS \
+	I_R_Source_I_R_Modules_generator_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define I_R_Source_I_R_Modules_generator_h_14_GENERATED_BODY \
+#define I_R_Source_I_R_Modules_generator_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	I_R_Source_I_R_Modules_generator_h_14_PRIVATE_PROPERTY_OFFSET \
-	I_R_Source_I_R_Modules_generator_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	I_R_Source_I_R_Modules_generator_h_14_INCLASS_NO_PURE_DECLS \
-	I_R_Source_I_R_Modules_generator_h_14_ENHANCED_CONSTRUCTORS \
+	I_R_Source_I_R_Modules_generator_h_15_PRIVATE_PROPERTY_OFFSET \
+	I_R_Source_I_R_Modules_generator_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	I_R_Source_I_R_Modules_generator_h_15_INCLASS_NO_PURE_DECLS \
+	I_R_Source_I_R_Modules_generator_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

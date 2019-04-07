@@ -10,7 +10,6 @@ AModule::AModule()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
-	
 }
 
 // Called when the game starts or when spawned
@@ -18,82 +17,70 @@ void AModule::BeginPlay()
 {
 	Super::BeginPlay();
 	
+
+	//Randomly_Spawn_Actors(Spawn_01, Number_objects_to_spawn);
 }
 
 
-void AModule::PlaceActors(TSubclassOf<AActor> ToSpawn, int MinSpawn, int MaxSpawn, float Radius, float MinScale, float MaxScale)
-{
-	TArray<FSpawnPosition> SpawnPositions = RandomSpawnPositions(MinSpawn, MaxSpawn, Radius, MinScale, MaxScale);
-	for (FSpawnPosition SpawnPosition : SpawnPositions)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("IM HERE"));
+void AModule::Randomly_Spawn_Actors(TSubclassOf<AActor> ToSpawn,int32 Quantity) {
+	Quantity = FMath::Clamp(Quantity, 0, 4);
+	for (int i = 0; i < Quantity; i++) {
+		FVector Location = Find_free_location(Taken_Locations);
+		if (Location != FVector(0, 0, 0)) {
+			UE_LOG(LogTemp, Warning, TEXT("Spawning."));
 
-		PlaceActor(ToSpawn, SpawnPosition);
-	}
-}
-
-TArray<FSpawnPosition> AModule::RandomSpawnPositions(int MinSpawn, int MaxSpawn, float Radius, float MinScale, float MaxScale)
-{
-	TArray<FSpawnPosition> SpawnPositions;
-	int NumberToSpawn = FMath::RandRange(MinSpawn, MaxSpawn);
-	for (size_t i = 0; i < NumberToSpawn; i++)
-	{
-		FSpawnPosition SpawnPosition;
-		SpawnPosition.Scale = FMath::RandRange(MinScale, MaxScale);
-		bool found = FindEmptyLocation(SpawnPosition.Location, Radius * SpawnPosition.Scale);
-		UE_LOG(LogTemp, Warning, TEXT("Before bool found"));
-
-		if (found)
-		{
-			UE_LOG(LogTemp, Warning, TEXT("bool found"));
-
-			SpawnPosition.Rotation = FMath::RandRange(-180.f, 180.f);
-			SpawnPositions.Add(SpawnPosition);
+			PlaceActor(ToSpawn, Location);
 		}
 	}
+	
 
-	return SpawnPositions;
 }
 
-bool AModule::FindEmptyLocation(FVector& OutLocation, float Radius) {
-	FBox Bounds(MinExtent, MaxExtent);
-	const int MAX_ATTEMPTS = 100;
-	for (size_t i = 0; i < MAX_ATTEMPTS; i++)
-	{
-		FVector CandidatePoint = FMath::RandPointInBox(Bounds);
-		if (CanSpawnAtLocation(CandidatePoint, Radius)) {
-			UE_LOG(LogTemp, Warning, TEXT("Can spawn at location"));
+FVector AModule::Find_free_location(FIs_Location_Taken& Is_Location_Free) {
+	int32 MAX_ATTEMPTS = 10;
+	int32 RandomPosition;
+	while (MAX_ATTEMPTS > 0) {
+		RandomPosition = FMath::RandRange(0, 3);
+		if (RandomPosition == 0 && !Is_Location_Free.first) {
+			Is_Location_Free.first = true;
+			UE_LOG(LogTemp, Warning, TEXT("FOUND."));
 
-			OutLocation = CandidatePoint;
-			return true;
+			return Spawn_Locations.Location_first;
+		}
+		else if (RandomPosition == 1 && !Is_Location_Free.second) {
+			Is_Location_Free.second = true;
+			UE_LOG(LogTemp, Warning, TEXT("FOUND."));
+
+			return Spawn_Locations.Location_second;
+		}
+		else if (RandomPosition == 2 && !Is_Location_Free.third) {
+			Is_Location_Free.third = true;
+			UE_LOG(LogTemp, Warning, TEXT("FOUND."));
+
+			return Spawn_Locations.Location_third;
+		}
+		else if (RandomPosition == 3 && !Is_Location_Free.fourth) {
+			Is_Location_Free.fourth = true;
+			UE_LOG(LogTemp, Warning, TEXT("FOUND.") );
+
+			return Spawn_Locations.Location_fourth;
+		}
+		else {
+			MAX_ATTEMPTS--;
 		}
 	}
-	return false;
+	UE_LOG(LogTemp, Warning, TEXT("Didn't find location.") );
+
+	return FVector(0, 0, 0);
 }
 
-bool AModule::CanSpawnAtLocation(FVector Location, float Radius)
-{
-	FHitResult HitResult;
-	FVector GlobalLocation = ActorToWorld().TransformPosition(Location);
-	UE_LOG(LogTemp, Warning, TEXT("Location: %s"),*Location.ToString());
 
-	bool HasHit = GetWorld()->SweepSingleByChannel(
-		HitResult,
-		GlobalLocation,
-		GlobalLocation,
-		FQuat::Identity,
-		ECollisionChannel::ECC_WorldStatic, //TODO pick correct channel
-		FCollisionShape::MakeSphere(Radius)
-	);
-	return !HasHit;
-}
 
-void AModule::PlaceActor(TSubclassOf<AActor> ToSpawn, FSpawnPosition SpawnPosition) {
+void AModule::PlaceActor(TSubclassOf<AActor> ToSpawn, FVector SpawnLocation) {
 	AActor* Spawned = GetWorld()->SpawnActor<AActor>(ToSpawn);
-	Spawned->SetActorRelativeLocation(SpawnPosition.Location);
+	Spawned->SetActorRelativeLocation(SpawnLocation);
 	Spawned->AttachToActor(this, FAttachmentTransformRules(EAttachmentRule::KeepRelative, false));
-	Spawned->SetActorRotation(FRotator(0, SpawnPosition.Rotation, 0));
-	Spawned->SetActorScale3D(FVector(SpawnPosition.Scale));
+	Spawned->SetActorRotation(FRotator(0, 0, 0));
 	UE_LOG(LogTemp, Warning, TEXT("Actor spawned"));
 
 }
