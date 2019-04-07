@@ -54,6 +54,7 @@ private:
 	UFUNCTION(BlueprintCallable, Category = "SpawnObjects")
 		void Randomly_Spawn_Actors(TSubclassOf<AActor> ToSpawn,int32 Quantity);
 
+
 	FVector Find_free_location(FIs_Location_Taken& Is_Location_Free);
 
 	UFUNCTION(BlueprintCallable, Category = "SpawnObjects")

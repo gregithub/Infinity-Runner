@@ -27,8 +27,10 @@ void AModule::Randomly_Spawn_Actors(TSubclassOf<AActor> ToSpawn,int32 Quantity) 
 	for (int i = 0; i < Quantity; i++) {
 		FVector Location = Find_free_location(Taken_Locations);
 		if (Location != FVector(0, 0, 0)) {
-
 			PlaceActor(ToSpawn, Location);
+		}
+		else {
+			UE_LOG(LogTemp, Warning, TEXT("DIDN't find location"));
 		}
 	}
 	
@@ -36,7 +38,7 @@ void AModule::Randomly_Spawn_Actors(TSubclassOf<AActor> ToSpawn,int32 Quantity) 
 }
 
 FVector AModule::Find_free_location(FIs_Location_Taken& Taken_Location) {
-	int32 MAX_ATTEMPTS = 10;
+	int32 MAX_ATTEMPTS = 5;
 	int32 RandomPosition;
 	while (MAX_ATTEMPTS > 0) {
 		RandomPosition = FMath::RandRange(0, 3);
