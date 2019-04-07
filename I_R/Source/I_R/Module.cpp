@@ -27,7 +27,6 @@ void AModule::Randomly_Spawn_Actors(TSubclassOf<AActor> ToSpawn,int32 Quantity) 
 	for (int i = 0; i < Quantity; i++) {
 		FVector Location = Find_free_location(Taken_Locations);
 		if (Location != FVector(0, 0, 0)) {
-			UE_LOG(LogTemp, Warning, TEXT("Spawning."));
 
 			PlaceActor(ToSpawn, Location);
 		}
@@ -43,25 +42,21 @@ FVector AModule::Find_free_location(FIs_Location_Taken& Is_Location_Free) {
 		RandomPosition = FMath::RandRange(0, 3);
 		if (RandomPosition == 0 && !Is_Location_Free.first) {
 			Is_Location_Free.first = true;
-			UE_LOG(LogTemp, Warning, TEXT("FOUND."));
 
 			return Spawn_Locations.Location_first;
 		}
 		else if (RandomPosition == 1 && !Is_Location_Free.second) {
 			Is_Location_Free.second = true;
-			UE_LOG(LogTemp, Warning, TEXT("FOUND."));
 
 			return Spawn_Locations.Location_second;
 		}
 		else if (RandomPosition == 2 && !Is_Location_Free.third) {
 			Is_Location_Free.third = true;
-			UE_LOG(LogTemp, Warning, TEXT("FOUND."));
 
 			return Spawn_Locations.Location_third;
 		}
 		else if (RandomPosition == 3 && !Is_Location_Free.fourth) {
 			Is_Location_Free.fourth = true;
-			UE_LOG(LogTemp, Warning, TEXT("FOUND.") );
 
 			return Spawn_Locations.Location_fourth;
 		}
@@ -81,6 +76,4 @@ void AModule::PlaceActor(TSubclassOf<AActor> ToSpawn, FVector SpawnLocation) {
 	Spawned->SetActorRelativeLocation(SpawnLocation);
 	Spawned->AttachToActor(this, FAttachmentTransformRules(EAttachmentRule::KeepRelative, false));
 	Spawned->SetActorRotation(FRotator(0, 0, 0));
-	UE_LOG(LogTemp, Warning, TEXT("Actor spawned"));
-
 }
