@@ -412,20 +412,20 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Inc\I_R
-/I C:\Users\greg\Documents\Runner\I_R\Source
-/I C:\Users\greg\Documents\Runner\I_R\Source\I_R
+/I D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Inc\I_R
+/I D:\Run\I_R\Source
+/I D:\Run\I_R\Source\I_R
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\I_REditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\I_REditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\I_REditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Inc\I_R\I_RGameModeBase.gen.cpp"
-/FI"C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\Definitions.I_R.h"
-/Fo"C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\I_RGameModeBase.gen.cpp.obj"
+/FI"D:\Run\I_R\Intermediate\Build\Win64\I_REditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\Run\I_R\Intermediate\Build\Win64\I_REditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Run\I_R\Intermediate\Build\Win64\I_REditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Inc\I_R\I_RGameModeBase.gen.cpp"
+/FI"D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\Definitions.I_R.h"
+/Fo"D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\I_RGameModeBase.gen.cpp.obj"
 /TP
 /GR-
 /W4

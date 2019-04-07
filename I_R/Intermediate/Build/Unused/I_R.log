@@ -1,16 +1,24 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\greg\Documents\Runner).
-  Creating makefile for hot reloading I_REditor (source directory changed)
-  Compiling game modules for hot reload
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Run).
+  Creating makefile for I_REditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for I_REditor
-    Running UnrealHeaderTool "C:\Users\greg\Documents\Runner\I_R\I_R.uproject" "C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\I_REditor\Development\I_REditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for I_REditor in 10.5406636 seconds
-  Building 4 actions with 16 processes...
-    [1/4] Module.cpp
-    [2/4] Module.gen.cpp
-    [3/4] UE4Editor-I_R-1411.lib
-       Creating library C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-1411.lib and object C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-1411.exp
-    [4/4] UE4Editor-I_R-1411.dll
-       Creating library C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-1411.suppressed.lib and object C:\Users\greg\Documents\Runner\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-1411.suppressed.exp
+    Running UnrealHeaderTool "D:\Run\I_R\I_R.uproject" "D:\Run\I_R\Intermediate\Build\Win64\I_REditor\Development\I_REditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for I_REditor in 10.4481279 seconds
+  Building 12 actions with 16 processes...
+    [1/12] PCLaunch.rc
+    [2/12] SharedPCH.Engine.cpp
+    [3/12] I_R.cpp
+    [4/12] Modules_generator.cpp
+    [5/12] I_R.init.gen.cpp
+    [6/12] Module.cpp
+    [7/12] I_RGameModeBase.cpp
+    [8/12] Modules_generator.gen.cpp
+    [9/12] Module.gen.cpp
+    [10/12] I_RGameModeBase.gen.cpp
+    [11/12] UE4Editor-I_R.lib
+       Creating library D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R.lib and object D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R.exp
+    [12/12] UE4Editor-I_R.dll
+       Creating library D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R.suppressed.lib and object D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R.suppressed.exp
   Deploying I_REditor Win64 Development...
-  Total build time: 17.16 seconds (Parallel executor: 1.59 seconds)
+  Total build time: 44.10 seconds (Parallel executor: 27.53 seconds)
