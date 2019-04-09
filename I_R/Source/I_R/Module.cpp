@@ -17,7 +17,6 @@ void AModule::BeginPlay()
 	Super::BeginPlay();
 
 	Modules_To_Place = Fill_Modules();
-	UE_LOG(LogTemp, Warning, TEXT("ADDED MODULES TO PLACE:%i"), Modules_To_Place.Num());
 
 
 
@@ -31,7 +30,6 @@ TArray<TSubclassOf<AModule>> AModule::Fill_Modules() {
 	if (Module_02 != nullptr) Modules.Add(Module_02);
 	if (Module_03 != nullptr) Modules.Add(Module_03);
 	if (Module_04 != nullptr) Modules.Add(Module_04);
-	UE_LOG(LogTemp, Warning, TEXT("ADDED MODULES:%i"), Modules.Num());
 	return Modules;
 }
 
@@ -39,7 +37,6 @@ void AModule::Random_Module_Place(FVector Spawn_Location) {
 	if (Modules_To_Place.Num() > 0) {
 		int Pick_Random_Module = FMath::RandRange(1, Modules_To_Place.Num());
 		PlaceModule_Module(Modules_To_Place[Pick_Random_Module - 1], Spawn_Location,Roation);
-		UE_LOG(LogTemp, Warning, TEXT("Spawning"));		
 	}
 }
 
@@ -100,8 +97,8 @@ FVector AModule::Find_free_location(FIs_Location_Taken& Taken_Location) {
 
 
 void AModule::PlaceActor(TSubclassOf<AActor> ToSpawn, FVector SpawnLocation) {
-	AActor* Spawned = GetWorld()->SpawnActor<AActor>(ToSpawn);
-	Spawned->SetActorRelativeLocation(SpawnLocation);
+	AActor* Spawned = GetWorld()->SpawnActor<AActor>(ToSpawn,SpawnLocation,FRotator(0,0,0));
+
 	Spawned->AttachToActor(this, FAttachmentTransformRules(EAttachmentRule::KeepRelative, false));
-	Spawned->SetActorRotation(FRotator(0, 0, 0));
+	
 }
