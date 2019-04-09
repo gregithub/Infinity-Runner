@@ -78,11 +78,6 @@ void EmptyLinkFunctionForGeneratedCodeModules_generator() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Starting_Position_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Starting_Position;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -99,16 +94,6 @@ void EmptyLinkFunctionForGeneratedCodeModules_generator() {}
 		{ "ModuleRelativePath", "Modules_generator.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AModules_generator_Statics::NewProp_Starting_Position_MetaData[] = {
-		{ "Category", "Spawn" },
-		{ "ModuleRelativePath", "Modules_generator.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AModules_generator_Statics::NewProp_Starting_Position = { UE4CodeGen_Private::EPropertyClass::Struct, "Starting_Position", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000010001, 1, nullptr, STRUCT_OFFSET(AModules_generator, Starting_Position), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AModules_generator_Statics::NewProp_Starting_Position_MetaData, ARRAY_COUNT(Z_Construct_UClass_AModules_generator_Statics::NewProp_Starting_Position_MetaData)) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AModules_generator_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AModules_generator_Statics::NewProp_Starting_Position,
-	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AModules_generator_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AModules_generator>::IsAbstract,
 	};
@@ -117,7 +102,7 @@ void EmptyLinkFunctionForGeneratedCodeModules_generator() {}
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
 		FuncInfo, ARRAY_COUNT(FuncInfo),
-		Z_Construct_UClass_AModules_generator_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AModules_generator_Statics::PropPointers),
+		nullptr, 0,
 		nullptr,
 		&StaticCppClassTypeInfo,
 		nullptr, 0,
@@ -132,7 +117,7 @@ void EmptyLinkFunctionForGeneratedCodeModules_generator() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AModules_generator, 192491274);
+	IMPLEMENT_CLASS(AModules_generator, 2567765163);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AModules_generator(Z_Construct_UClass_AModules_generator, &AModules_generator::StaticClass, TEXT("/Script/I_R"), TEXT("AModules_generator"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AModules_generator);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

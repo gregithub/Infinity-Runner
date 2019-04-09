@@ -20,23 +20,10 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Spawn")
 		void PlaceModule(TSubclassOf<AActor> Module, FVector Location);
-	UPROPERTY(EditDefaultsOnly, Category = "Spawn")
-		FVector Starting_Position;
+	
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
-public:	
-
-
-
-private:
-		
-
-		
-
-
-
 
 };

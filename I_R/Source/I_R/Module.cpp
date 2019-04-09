@@ -9,16 +9,43 @@ AModule::AModule()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
-
 }
 
 // Called when the game starts or when spawned
 void AModule::BeginPlay()
 {
 	Super::BeginPlay();
-	
 
-	//Randomly_Spawn_Actors(Spawn_01, Number_objects_to_spawn);
+	Modules_To_Place = Fill_Modules();
+	UE_LOG(LogTemp, Warning, TEXT("ADDED MODULES TO PLACE:%i"), Modules_To_Place.Num());
+
+
+
+}
+
+TArray<TSubclassOf<AModule>> AModule::Fill_Modules() {
+	TArray<TSubclassOf<AModule>> Modules;
+
+	if (Module_00 != nullptr) Modules.Add(Module_00); 	
+	if (Module_01 != nullptr) Modules.Add(Module_01);
+	if (Module_02 != nullptr) Modules.Add(Module_02);
+	if (Module_03 != nullptr) Modules.Add(Module_03);
+	if (Module_04 != nullptr) Modules.Add(Module_04);
+	UE_LOG(LogTemp, Warning, TEXT("ADDED MODULES:%i"), Modules.Num());
+	return Modules;
+}
+
+void AModule::Random_Module_Place(FVector Spawn_Location) {
+	if (Modules_To_Place.Num() > 0) {
+		int Pick_Random_Module = FMath::RandRange(1, Modules_To_Place.Num());
+		PlaceModule_Module(Modules_To_Place[Pick_Random_Module - 1], Spawn_Location,Roation);
+		UE_LOG(LogTemp, Warning, TEXT("Spawning"));		
+	}
+}
+
+void AModule::PlaceModule_Module(TSubclassOf<AModule> Module, FVector Location, FRotator Rotation) {
+	AModule* Spawned = GetWorld()->SpawnActor<AModule>(Module, Location,Rotation);
+	
 }
 
 

@@ -7,6 +7,7 @@
 #include"Modules_generator.h"
 #include "Module.generated.h"
 
+
 USTRUCT()
 struct FSpawn_Locations {
 	GENERATED_USTRUCT_BODY()
@@ -38,12 +39,31 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "SpawnObjects")
 		void Randomly_Spawn_Actors(TSubclassOf<AActor> ToSpawn, int32 Quantity);
 	
+	UPROPERTY(EditDefaultsOnly, Category = "Module")
+		TSubclassOf<AModule> Module_00 = nullptr;
+	UPROPERTY(EditDefaultsOnly, Category = "Module")
+		TSubclassOf<AModule> Module_01 = nullptr;
+	UPROPERTY(EditDefaultsOnly, Category = "Module")
+		TSubclassOf<AModule> Module_02 = nullptr;
+	UPROPERTY(EditDefaultsOnly, Category = "Module")
+		TSubclassOf<AModule> Module_03 = nullptr;
+	UPROPERTY(EditDefaultsOnly, Category = "Module")
+		TSubclassOf<AModule> Module_04 = nullptr;
+
+	
+	FRotator Roation = FRotator(0, 0, 0);
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 	
 private:	
+	TArray<TSubclassOf<AModule>> Modules_To_Place;
+
+	TArray<TSubclassOf<AModule>> Fill_Modules();
+
+	UFUNCTION(BlueprintCallable, Category = "SpawnObjects")
+		void Random_Module_Place(FVector Spawn_Location);
 
 	FSpawn_Locations Spawn_Locations;
 	FIs_Location_Taken Taken_Locations;
@@ -56,4 +76,6 @@ private:
 		void PlaceActor(TSubclassOf<AActor> ToSpawn, FVector SpawnLocation);
 
 	
+
+	void PlaceModule_Module(TSubclassOf<AModule> Module, FVector Location,FRotator Rotation);
 };
