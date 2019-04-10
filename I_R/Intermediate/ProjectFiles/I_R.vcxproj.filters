@@ -50,11 +50,5 @@
     <ClInclude Include="..\..\Source\I_R\Module.h">
       <Filter>Source\I_R</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\I_R\Modules_generator.cpp">
-      <Filter>Source\I_R</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\I_R\Modules_generator.h">
-      <Filter>Source\I_R</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

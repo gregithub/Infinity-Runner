@@ -1,12 +1,15 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Run).
-  Creating makefile for hot reloading I_REditor (source directory changed)
-  Compiling game modules for hot reload
+  Creating makefile for I_REditor (source directory changed)
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 16 processes...
-    [1/3] Module.cpp
-    [2/3] UE4Editor-I_R-6321.lib
-       Creating library D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-6321.lib and object D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-6321.exp
-    [3/3] UE4Editor-I_R-6321.dll
-       Creating library D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-6321.suppressed.lib and object D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R-6321.suppressed.exp
+  Parsing headers for I_REditor
+    Running UnrealHeaderTool "D:\Run\I_R\I_R.uproject" "D:\Run\I_R\Intermediate\Build\Win64\I_REditor\Development\I_REditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for I_REditor in 10.4047155 seconds
+  Building 4 actions with 16 processes...
+    [1/4] Module.cpp
+    [2/4] Module.gen.cpp
+    [3/4] UE4Editor-I_R.lib
+       Creating library D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R.lib and object D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R.exp
+    [4/4] UE4Editor-I_R.dll
+       Creating library D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R.suppressed.lib and object D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R.suppressed.exp
   Deploying I_REditor Win64 Development...
-  Total build time: 51.12 seconds (Parallel executor: 15.47 seconds)
+  Total build time: 16.73 seconds (Parallel executor: 1.63 seconds)

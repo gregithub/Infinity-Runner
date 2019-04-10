@@ -36,14 +36,16 @@ TArray<TSubclassOf<AModule>> AModule::Fill_Modules() {
 void AModule::Random_Module_Place(FVector Spawn_Location) {
 	if (Modules_To_Place.Num() > 0) {
 		int Pick_Random_Module = FMath::RandRange(1, Modules_To_Place.Num());
-		PlaceModule_Module(Modules_To_Place[Pick_Random_Module - 1], Spawn_Location,Roation);
+		PlaceModule(Modules_To_Place[Pick_Random_Module - 1], Spawn_Location,Roation);
 	}
 }
 
-void AModule::PlaceModule_Module(TSubclassOf<AModule> Module, FVector Location, FRotator Rotation) {
-	AModule* Spawned = GetWorld()->SpawnActor<AModule>(Module, Location,Rotation);
-	
+void AModule::PlaceModule(TSubclassOf<AActor> Module, FVector Location, FRotator Rotation) {
+	AModule* Spawned = GetWorld()->SpawnActor<AModule>(Module, Location, Rotation);
+
 }
+
+
 
 
 void AModule::Randomly_Spawn_Actors(TSubclassOf<AActor> ToSpawn,int32 Quantity) {

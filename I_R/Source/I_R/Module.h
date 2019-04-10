@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include"Modules_generator.h"
 #include "Module.generated.h"
 
 
@@ -29,7 +28,7 @@ struct FIs_Location_Taken {
 
 
 UCLASS()
-class I_R_API AModule : public AModules_generator
+class I_R_API AModule : public AActor
 {
 	GENERATED_BODY()
 	
@@ -58,6 +57,10 @@ protected:
 
 	
 private:	
+
+	UFUNCTION(BlueprintCallable, Category = "Spawn")
+		void PlaceModule(TSubclassOf<AActor> Module, FVector Location, FRotator Rotation);
+
 	TArray<TSubclassOf<AModule>> Modules_To_Place;
 
 	TArray<TSubclassOf<AModule>> Fill_Modules();
@@ -77,5 +80,4 @@ private:
 
 	
 
-	void PlaceModule_Module(TSubclassOf<AModule> Module, FVector Location,FRotator Rotation);
 };
