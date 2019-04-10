@@ -30,6 +30,7 @@ TArray<TSubclassOf<AModule>> AModule::Fill_Modules() {
 	if (Module_02 != nullptr) Modules.Add(Module_02);
 	if (Module_03 != nullptr) Modules.Add(Module_03);
 	if (Module_04 != nullptr) Modules.Add(Module_04);
+	if (Module_04 != nullptr) Modules.Add(Module_05);
 	return Modules;
 }
 

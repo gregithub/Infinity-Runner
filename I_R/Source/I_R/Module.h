@@ -48,6 +48,8 @@ public:
 		TSubclassOf<AModule> Module_03 = nullptr;
 	UPROPERTY(EditDefaultsOnly, Category = "Module")
 		TSubclassOf<AModule> Module_04 = nullptr;
+	UPROPERTY(EditDefaultsOnly, Category = "Module")
+		TSubclassOf<AModule> Module_05 = nullptr;
 
 	
 	FRotator Roation = FRotator(0, 0, 0);

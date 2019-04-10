@@ -325,6 +325,10 @@ static struct FScriptStruct_I_R_StaticRegisterNativesFSpawn_Locations
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Module_05_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Module_05;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Module_04_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Module_04;
@@ -365,6 +369,13 @@ static struct FScriptStruct_I_R_StaticRegisterNativesFSpawn_Locations
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AModule_Statics::NewProp_Module_05_MetaData[] = {
+		{ "Category", "Module" },
+		{ "ModuleRelativePath", "Module.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AModule_Statics::NewProp_Module_05 = { UE4CodeGen_Private::EPropertyClass::Class, "Module_05", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000010001, 1, nullptr, STRUCT_OFFSET(AModule, Module_05), Z_Construct_UClass_AModule_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AModule_Statics::NewProp_Module_05_MetaData, ARRAY_COUNT(Z_Construct_UClass_AModule_Statics::NewProp_Module_05_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AModule_Statics::NewProp_Module_04_MetaData[] = {
 		{ "Category", "Module" },
 		{ "ModuleRelativePath", "Module.h" },
@@ -400,6 +411,7 @@ static struct FScriptStruct_I_R_StaticRegisterNativesFSpawn_Locations
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AModule_Statics::NewProp_Module_00 = { UE4CodeGen_Private::EPropertyClass::Class, "Module_00", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000010001, 1, nullptr, STRUCT_OFFSET(AModule, Module_00), Z_Construct_UClass_AModule_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AModule_Statics::NewProp_Module_00_MetaData, ARRAY_COUNT(Z_Construct_UClass_AModule_Statics::NewProp_Module_00_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AModule_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AModule_Statics::NewProp_Module_05,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AModule_Statics::NewProp_Module_04,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AModule_Statics::NewProp_Module_03,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AModule_Statics::NewProp_Module_02,
@@ -429,7 +441,7 @@ static struct FScriptStruct_I_R_StaticRegisterNativesFSpawn_Locations
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AModule, 346312246);
+	IMPLEMENT_CLASS(AModule, 802607303);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AModule(Z_Construct_UClass_AModule, &AModule::StaticClass, TEXT("/Script/I_R"), TEXT("AModule"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AModule);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
