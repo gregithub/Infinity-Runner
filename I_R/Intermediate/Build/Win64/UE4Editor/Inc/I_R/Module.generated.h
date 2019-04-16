@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -21,10 +21,14 @@ struct FRotator;
 	I_R_API static class UScriptStruct* StaticStruct();
 
 
+template<> I_R_API UScriptStruct* StaticStruct<struct FIs_Location_Taken>();
+
 #define I_R_Source_I_R_Module_h_12_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSpawn_Locations_Statics; \
 	I_R_API static class UScriptStruct* StaticStruct();
 
+
+template<> I_R_API UScriptStruct* StaticStruct<struct FSpawn_Locations>();
 
 #define I_R_Source_I_R_Module_h_33_RPC_WRAPPERS \
  \
@@ -177,6 +181,8 @@ public: \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
+
+template<> I_R_API UClass* StaticClass<class AModule>();
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID I_R_Source_I_R_Module_h

@@ -13,5 +13,6 @@
 "D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\I_R.init.gen.cpp.obj"
 "D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\I_RGameModeBase.gen.cpp.obj"
 "D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\Module.gen.cpp.obj"
-"D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\PCLaunch.rc.res"
+"D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\Default.rc2.res"
 /OUT:"D:\Run\I_R\Intermediate\Build\Win64\UE4Editor\Development\I_R\UE4Editor-I_R.lib"
+/INCLUDE:IMPLEMENT_MODULE_I_R

@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -51,13 +51,17 @@ void EmptyLinkFunctionForGeneratedCodeI_RGameModeBase() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AI_RGameModeBase_Statics::ClassParams = {
 		&AI_RGameModeBase::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x009002A8u,
-		nullptr, 0,
-		nullptr, 0,
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x009002A8u,
 		METADATA_PARAMS(Z_Construct_UClass_AI_RGameModeBase_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AI_RGameModeBase_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AI_RGameModeBase()
@@ -69,7 +73,11 @@ void EmptyLinkFunctionForGeneratedCodeI_RGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AI_RGameModeBase, 3025126859);
+	IMPLEMENT_CLASS(AI_RGameModeBase, 1414941998);
+	template<> I_R_API UClass* StaticClass<AI_RGameModeBase>()
+	{
+		return AI_RGameModeBase::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AI_RGameModeBase(Z_Construct_UClass_AI_RGameModeBase, &AI_RGameModeBase::StaticClass, TEXT("/Script/I_R"), TEXT("AI_RGameModeBase"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AI_RGameModeBase);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
